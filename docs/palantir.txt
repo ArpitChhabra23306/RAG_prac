@@ -1,0 +1,737 @@
+
+Palantir Technologies Inc. is an American publicly traded company that develops data integration and analytics platforms enabling government agencies, militaries, and corporations to combine and analyze data from multiple sources. Its flagship products—Gotham (for intelligence and defense) and Foundry (for commercial and civil use)—connect previously siloed databases to support intelligence operations, counterterrorism analysis, law enforcement, and enterprise analytics.[3] Headquartered in Miami, Florida, it was founded in 2003 by Peter Thiel,[4] Stephen Cohen,[5] Joe Lonsdale,[6] Alex Karp,[7] and Nathan Gettings.[8][9]
+
+Palantir's customer base includes federal agencies, state and local governments, international organizations, and also private companies.[10] The company has four main operating systems: Palantir Gotham, Palantir Foundry, Palantir Apollo, and Palantir AIP. Palantir Gotham is an intelligence tool used by militaries and counter-terrorism analysts, including the United States Intelligence Community (USIC) and United States Department of Defense. Multiple police departments have used Gotham for crime analysis. Civil liberties organizations including the ACLU have criticized this use as predictive policing. CEO Alex Karp disputes this characterization, arguing the system is an analytical tool requiring human judgment rather than an autonomous predictive system that independently forecasts criminal activity.[11][12]
+
+Its software as a service (SaaS) is one of five offerings the U.S. Department of Defense authorized for Mission Critical National Security Systems (IL5).[13][14][15] Palantir has been used for data integration and analysis by corporate clients such as Morgan Stanley, Merck KGaA, Airbus, Wejo, Lilium, PG&E and Fiat Chrysler Automobiles.[16] Palantir Apollo is a platform to facilitate continuous integration/continuous delivery (CI/CD) across all environments.[17][18] Palantir reported its first quarter of positive net income under non-GAAP metrics in Q4 2022 and its first quarter of positive GAAP net income in Q1 2023, totaling $31 million, reaching profitability after about 20 years since its founding.[19][20]
+
+Palantir has been criticized for its involvement in expanding government surveillance through artificial intelligence and facial recognition technologies.[21][22] Critics have raised concerns about its contracts with the Trump administration, which enable deportations of undocumented immigrants and the aggregation of sensitive data on Americans.[23][24] Supporters say that Palantir does not collect, store, or sell data itself but rather provides software that helps clients analyze data they already have access to, while clients retain control and rights over their own information.[25][26]
+
+History
+2003–2008: Founding and early years
+
+Palantir founder and chairman Peter Thiel in 2009
+Palantir was founded in 2003.[27][28][29] Thiel named the startup after the "seeing stone" in Tolkien's legendarium. Likewise, Palantir's office locations have names from Tolkien: The Shire (Palo Alto, California), Rivendell (McLean, Virginia), and Minas Tirith (Washington, D.C.).[30] In 2013, Thiel said Palantir was a "mission-oriented company" that could apply software similar to PayPal's fraud recognition systems to "reduce terrorism while preserving civil liberties".[31] Asked what the secret of its success was, Karp said that he and Thiel pursued a "classic German approach" when founding the company, influenced by the idea of overcoming opposites via the Hegelian dialectic.[32] In 2004, Thiel bankrolled the creation of a prototype by PayPal engineer Nathan Gettings and Stanford University students Joe Lonsdale and Stephen Cohen. The same year, he hired Alex Karp, a former colleague of his from Stanford Law School, as chief executive officer.[33]
+
+There are several versions of the story of Palantir's founding. According to Gilman Louie, head of In-Q-Tel (a venture capital corporation associated with the CIA and the intelligence community),[34][35] after Thiel recruited Karp, the two founders came to him with some ideas but no clear problem to solve. After hearing his suggestions, they did a mockup in two weeks.[36] According to Anthony King, the FBI first recognized the success of PayPal's fraud detection system (named "Igor", after a Russian who was one of the company's most consistent abusers) and requested it for its work in detecting financial crime. Palantir evolved from that software when Thiel proposed the company to Karp and Cohen.[37] According to Wired, in 2004 Thiel and Karp met John Poindexter, a Department of Defense official who recognized their "interesting idea" and helped them gather "a legion of advocates from the most influential strata of government". They then tried to recruit investors, but no one in Silicon Valley wanted to back an "expensive software platform for large organizations", and "The government was unpopular in Silicon Valley". But an investor who turned them down recommended them to In-Q-Tel, which decided to invest the relatively small sum of £1.3 million but helped them get in touch with prospective users. The contact with In-Q-Tel also incidentally led to interest from another backer, Reed Elsevier (later REV).[38]
+
+According to Karp, Sequoia Capital chairman Michael Moritz doodled through an entire meeting, and a Kleiner Perkins executive lectured the founders about the company's inevitable failure.[39][40] According to the Wall Street Journal, when Palantir launched in 2004, there were three investors other than Thiel and Karp but little interest from venture capital firms, so Thiel and his venture fund largely bankrolled the initial $30 million cost. Later In-Q-Tel invested about $2 million.[14] According to Techcrunch, Oakhouse Partners led Palantir's $7.5 million Series A (June 2006) and REV led its $10.5 million Series B (November 2006).[41] In its early years, Palantir maintained founder control by declining to offer board seats to investors, including In-Q-Tel. This practice continued through subsequent funding rounds. Karp's biographer Michael Steinberger notes that, even later, when the company attracted significant outside money, it never gave up a board seat.[42] Steinberger also writes that Karp, who primarily oversaw the company's operations, disliked companies such as Google and Facebook, fearing that public backlash against Big Data might wrongly implicate Palantir, which, unlike them, neither collected nor sold data. Palantir's leadership viewed companies such as Facebook as potential targets for public criticism regarding data practices. Thiel's involvement with both companies—as Palantir's founder and a Facebook board member—created strategic tension in how the companies positioned themselves regarding data ethics.[43]
+
+In the 2025 book The Technological Republic, Karp and Zamiska argue that American technological dominance requires deeper integration of Silicon Valley and defense interests. Karp contends that China operates with fewer ethical constraints than U.S. defense companies, making technological leadership essential for national security. The authors stress that deterrence through technological dominance could prevent many wars. Bloomberg noted that the atomic bomb the Manhattan Project produced was ultimately used. The New Republic called Karp's formation of Palantir an embrace of techno-militarism to advance American global supremacy through hard power and targeted violence.[44][45][46] The Wall Street Journal said Palantir had a "pro-America ethos" from its inception, highlighting a 2025 fellowship where fellows received a four-week seminar on Western civilization and whether it was worth defending.[47]
+
+According to the Journal, for two years the company continuously revised its technology based on the demands of analysts from the intelligence agencies, introduced to them by In-Q-Tel.[14] A 2009 VentureBeat article says that most of the intelligence community knew about the company by word of mouth. In its early years its work included a subprime lender study for Center for Public Integrity and analyses of Somali piracy, Hezbollah, and the platform used to detect the Chinese GhostNet.[48] Palantir said computers alone using artificial intelligence could not defeat an adaptive adversary. Instead, it proposed using human analysts to explore data from many sources, called intelligence augmentation.[49] Theories created by authors such as Whitney Webb, published through pro-Russia channels like MintPress, have circulated about Palantir's origins.[50][51]
+
+2010–2012: Expansion
+In April 2010, Palantir announced a partnership with Thomson Reuters to sell the Palantir Metropolis product as "QA Studio" (a quantitative analysis tool).[52] On June 18, 2010, Vice President of the United States Joe Biden and Office of Management and Budget Director Peter Orszag held a press conference at the White House announcing the success of fighting fraud in the stimulus by the Recovery Accountability and Transparency Board (RATB). Biden credited Palantir with supporting the Recovery Accountability and Transparency Board's fraud detection efforts, highlighting specific cases identified through the system.[53] He announced that the capability would be deployed at other government agencies, starting with Medicare and Medicaid.[54][55][56][57] Industry analysts estimated Palantir's 2011 revenues at approximately $250 million.[58]
+
+2013–2017: Additional funding
+"[As of 2013] the U.S. spy agencies also employed Palantir to connect databases across departments. Before this, most of the databases used by the CIA and FBI were siloed, forcing users to search each database individually. Now everything is linked together using Palantir."
+— TechCrunch in January 2015[59]
+A document leaked to TechCrunch revealed that Palantir's clients as of 2013 included at least 12 groups in the U.S. government, including the CIA, the DHS, the NSA, the FBI, the CDC, the Marine Corps, the Air Force, the Special Operations Command, the United States Military Academy, the Joint Improvised-Threat Defeat Organization and Allies, the Recovery Accountability and Transparency Board and the National Center for Missing and Exploited Children. At the time, the United States Army continued to use its own data analysis tool.[59] Also according to TechCrunch, U.S. spy agencies such as the CIA and FBI were linked for the first time with Palantir software, as their databases had previously been siloed.[59]
+
+In September 2013, Palantir disclosed over $196 million in funding, according to a U.S. Securities and Exchange Commission filing.[60][61] It was estimated that the company would likely sign almost $1 billion in contracts in 2014.[62] CEO Alex Karp announced in 2013 that the company would not pursue an IPO, as going public would make "running a company like ours very difficult."[63] In December 2013, the company began a round of financing, raising around $450 million from private funders. This raised the company's value to $9 billion, according to Forbes, with the magazine reporting that the valuation made Palantir "among Silicon Valley's most valuable private technology companies."[63]
+
+In December 2014, Forbes reported that Palantir was looking to raise $400 million in an additional round of financing, after the company filed paperwork with the Securities and Exchange Commission the month before. The report was based on research by VC Experts. If completed, Forbes said Palantir's funding could reach $1.2 billion.[63] As of December 2014, the company continued to have diverse private funders, Ken Langone and Stanley Druckenmiller, In-Q-Tel of the CIA,[64] Tiger Global Management, and Founders Fund, a venture firm operated by Thiel.[63]
+
+Palantir was valued at $15 billion in November 2014.[65] In June 2015, BuzzFeed reported the company was raising up to $500 million in new capital at a valuation of $20 billion.[66] By December, it had raised a further $880 million, while the company was still valued at $20 billion.[67] In February 2016, Palantir bought Kimono Labs, a startup that makes it easy to collect information from public-facing websites.[68] In August 2016, Palantir acquired data visualization startup Silk.[69] In 2017, BuzzFeed News reported that despite the reputation that connected Palantir to U.S. intelligence agencies (which Palantir deliberately crafted to help it win business), including the CIA, NSA, and FBI, the actual relationship was rocky for various reasons, with episodes of friction and recalcitrance. The NSA in particular had been resistant because it had plenty of its own talent and focused more on SIGINT while Palantir's software worked better for HUMINT. Meanwhile, the CIA had been so frustrated by the publicity associating Palantir with it that it tried to cancel the Palantir contract. But according to Karp, Palantir had a firm hold at the FBI because "They'll have no choice".[70]
+
+2018–present
+
+Palantir's former headquarters at Palo Alto, which remains an office[71]
+Palantir was one of four large technology firms[72] to start working with the NHS on supporting COVID-19 efforts through the provision of software from Palantir Foundry,[73] and by April 2020, several countries had used Palantir's technology to track and contain the contagion.[74] Palantir also developed Tiberius, a software for vaccine allocation used in the United States.[75]
+
+In August 2020, Palantir Technologies moved its headquarters to Denver, Colorado, distancing itself from the "engineering elite of Silicon Valley ... they do not know more about how society should be organized or what justice requires".[76] In September it had its IPO on the NYSE,[77] advertising a goal of becoming the "default operating system across the US".[78] In December 2020, the U.S. Food and Drug Administration awarded Palantir a $44.4 million contract, boosting its shares by about 21%.[79] In February 2023, Palantir reported its first quarter of positive GAAP net income, totaling $31 million.[80] In November 2024, the Navy awarded Palantir a nearly $1 billion software contract.[81] Various outlets have said that the company's actual business and size remain small.
+
+In 2025, Fortune noted that Palantir, with a market capitalization exceeding $400 billion, ranked among the world's most valuable companies by market cap, yet would fail to meet Fortune 500 revenue thresholds (requiring $50+ billion annually in sales). The company's headcount in August 2025 was 4,100, but Karp wanted to reduce it to 3,600.[82][83] As of May 2025, the second Trump administration had spent $113 million on existing and new contracts with the Department of Homeland Security and The Pentagon plus a contract of $795 million with the DOD, while deliberating contracts for the Social Security Administration and the Internal Revenue Service.[24]
+
+In February 2026, Palantir announced plans to move its headquarters from Denver, Colorado, to Miami, Florida.[84][85]
+
+Valuation
+The company was valued at $9 billion in December 2013 after raising an additional $107.5 million in funding.[86] Forbes wrote that the valuation made Palantir "among Silicon Valley's most valuable private technology companies".[63] Palantir's valuation rose to $15 billion after a $50 million round of funding in November 2014,[87] and to $20 billion in late 2015 as the company closed an $880 million round of funding.[88] In 2018, Morgan Stanley valued the company at $6 billion.[89] On October 18, 2018, The Wall Street Journal reported that Palantir considered an IPO in the first half of 2019 following a $41 billion valuation.[90] Before its IPO, Palantir had not made a profit. In July 2020, it filed for an IPO,[91] and on September 30, 2020, it went public on the New York Stock Exchange through a direct public offering under the ticker symbol "PLTR".[92]
+
+On September 6, 2024, S&P Global announced that Palantir would be added to the S&P 500 index. Its share price rose 14% the next trading day.[93] On November 14, Palantir announced transfer of its stock listing from the New York Stock Exchange to the Nasdaq Global Select Market effective November 26. The company's Class A Common Stock continued to trade under the symbol PLTR.[94] In 2025, The Economist called Palantir possibly "the most over-valued firm of all time", with a market value of $430 billion—over 600 times its 2024 earnings.[95] As of November 2025, its shares were the most expensive on the S&P 500, at 85 times expected forward annual sales.[96]
+
+Investments
+Palantir invested approximately $400 million in roughly 20 SPACs, a strategy that simultaneously positioned it as an investor in emerging companies and as a potential software provider to those portfolio companies, according to investment bank RBC Capital Markets.[97]
+
+Products
+Palantir Gotham
+Released in 2008, Palantir Gotham is Palantir's defense and intelligence software. It is an evolution of Palantir's longstanding work in the United States Intelligence Community, and is used by intelligence and defense agencies. Among other things, the software supports alerts, geospatial analysis, and prediction. Foreign customers include the Ukrainian military.[98] Palantir Gotham has also been used as a predictive policing system, which has elicited some controversy over racism in their AI analytics.[99]
+
+Palantir Foundry
+Palantir Foundry is a software platform offered for use in commercial and civil government sectors. Foundry gained prominence in healthcare through deployment in the National COVID Cohort Collaborative, a federated network of electronic health records. Research using this platform generated extensive peer-reviewed publications and won the NIH/FASEB Dataworks Grand Prize. NHS England also used Foundry in dealing with the COVID-19 pandemic to analyze the operation of the vaccination program.[100]
+
+As of 2022, Foundry was also used for the administration of the UK Homes for Ukraine program[101] to give caseworkers employed by local authorities access to data held by the Department for Levelling Up, Housing and Communities and Home Office. In November 2023, NHS England awarded Palantir a seven-year contract valued at £330 million to design and operate a Federated Data Platform connecting patient data across England's healthcare system. The contract was immediately criticized by the British Medical Association, The Doctors' Association UK, and cybersecurity professionals, citing concerns about patient data privacy, procurement transparency, and Palantir's commercial contracts with the Israel Defense Forces.[102][103][104] In 2024, medical professionals picketed outside NHS England HQ, demanding the deal's cancellation.[105] As of May 2025, four US federal agencies, including the Department of Homeland Security and the Department of Health and Human Services, used Foundry.[24]
+
+Other products
+The company has been involved in a number of business and consumer products, designing in part or in whole. For example, in 2014, it premiered Insightics, which according to the Wall Street Journal "extracts customer spending and demographic information from merchants' credit-card records". It was created in tandem with credit processing company First Data.[106]
+
+Artificial Intelligence Platform (AIP)
+In April 2023, the company launched Artificial Intelligence Platform (AIP), which integrates large language models into privately operated networks. The company demonstrated its use in war, where a military operator could deploy operations and receive responses via an AI chatbot.[107][108] Citing potential risks of generative artificial intelligence, Karp said the product would not let the AI independently carry out targeting operations, but would require human oversight.[109][110] Commercial companies have also used AIP across many domains. Applications include infrastructure planning, network analysis, and resource allocation.[111][112]
+
+AIP lets users create LLMs called "agents" through a graphical user interface. Agents can interact with a digital representation of a company's business known as an ontology. This lets the models access an organization's documents and other external resources. Users can define output schemas and test cases to validate AI-generated responses. AIP comes with a library of templates that can be extended by clients.[113] Palantir also offers five-day boot camps to onboard prospective customers.[114] Palantir hosts an annual AIPCon conference featuring demos from existing customers.[112]
+
+TITAN
+Palantir's TITAN (Tactical Intelligence Targeting Access Node) is a mobile command vehicle equipped with AI and analytics software for military field intelligence operations. Developed with IRAD funding in partnership with Anduril Industries and Northrop Grumman, TITAN integrates intelligence and targeting data to support tactical decision-making. The company claims that TITAN can improve customers' ability to conduct long-range precision strikes.[115] Palantir is under contract to deliver 10 units to the U.S. Army.[116]
+
+MetaConstellation
+MetaConstellation is a satellite network that supports the deployment of AI models. Users can request information about specific locations, prompting the service to dispatch the necessary resources. MetaConstellation has been used by customers including the United States Northern Command.[117]
+
+Skykit
+Skykit is a portable toolbox that supports intelligence operations in adverse environments. Palantir offers "Skykit Backpack" and "Skykit Maritime" to be transported by individuals and boats respectively. Contents include battery packs, a ruggedized laptop with company software, and a quadcopter supporting computer vision applications. Skykit can also connect to the MetaConstellation satellite network.[118] In 2023, various sources reported that the Ukrainian military had begun receiving Skykit units.[119][120]
+
+Palantir Metropolis
+Palantir Metropolis (formerly known as Palantir Finance) was[121] software for data integration, information management, and quantitative analytics. The software integrates data from commercial, proprietary, and public sources, enabling analysts to identify trends, relationships, anomalies, and predictive patterns.[122] Aided by 120 "forward-deployed engineers" of Palantir in 2009, Peter Cavicchia III of JPMorgan used Metropolis to monitor employee communications[123] and alert the insider threat team when an employee showed signs of potential disgruntlement: the insider alert team would further scrutinize the employee and possibly conduct physical surveillance after hours with bank security personnel.[122][123] The Metropolis team used emails, download activity, browser histories, and GPS locations from JPMorgan-owned smartphones and their transcripts of digitally recorded phone conversations to search, aggregate, sort, and analyze this information for specific keywords, phrases, and patterns of behavior.[122][123] In 2013, Cavicchia may have shared this information with Frank Bisignano, who had become CEO of First Data Corporation.[122] Palantir Metropolis was succeeded by Palantir Foundry.[124]
+
+ELITE
+ELITE (Enhanced Leads Identification and Targeting for Enforcement) is a software tool Palantir developed for the US Immigration and Customs Enforcement (ICE) agency. The program provides a digital map populated with information about potential deportation targets, pulling data from the United States Department of Health and Human Services (which includes Medicaid), among other sources, to estimate the locations of the agency's targets.[125][126]
+
+Customers
+Corporate use
+See also: Information Warfare Monitor
+Sales by business (2024)[127]
+Business	Sales in billion $	Share
+Government	1.7	54.8%
+Commercial	1.2	45.2%
+Sales by region (2024)[127]
+Region	Sales in billion $	share
+United States	1.9	66.3%
+Rest of World	0.7	23.1%
+United Kingdom	0.3	10.6%
+Founded as a defense contractor, Palantir has since expanded to the private sector. These activities now provide a large proportion of the company's revenue. Palantir had 55% year-over-year growth in the U.S. commercial market in Q2 2024; it also serves foreign customers. Applications include telecommunications and infrastructure planning.[128] Palantir Metropolis was used by hedge funds, banks, and financial services firms.[14][15][129][130] Palantir Foundry clients include Merck KGaA,[131] Airbus,[132] and Ferrari.[133] Palantir partner Information Warfare Monitor used Palantir software to uncover both the Ghostnet and the Shadow Network.[129][134][135]
+
+U.S. civil entities
+Palantir's software was used by the Recovery Accountability and Transparency Board to detect and investigate fraud and abuse in the American Recovery and Reinvestment Act. Specifically, the Recovery Operations Center (ROC) used Palantir to integrate transactional data with open-source and private data sets to better screen the entities receiving stimulus funds.[56] Other clients as of 2019 included Polaris Project,[136] the Centers for Disease Control and Prevention, the National Center for Missing and Exploited Children,[59] the National Institutes of Health,[137] Team Rubicon,[138] and the United Nations World Food Programme.[139] In October 2020, Palantir began helping the federal government set up a system to track the manufacture, distribution, and administration of COVID-19 vaccines across the country.[140]
+
+U.S. military, intelligence, and police
+Palantir Gotham is used by counter-terrorism analysts at offices in the United States Intelligence Community and United States Department of Defense, fraud investigators at the Recovery Accountability and Transparency Board, and cyber analysts at Information Warfare Monitor (responsible for the GhostNet and the Shadow Network investigation). Gotham was used by fraud investigators at the Recovery Accountability and Transparency Board, a former U.S. federal agency which operated from 2009 to 2015. Other clients as of 2013 included DHS, NSA, FBI, the U.S. Marine Corps, the U.S. Air Force, U.S. Special Operations Command, West Point, the Joint IED Defeat Organization, and Allies. The U.S. Army continued to use its own data analysis tool.[59] According to TechCrunch, "The U.S. spy agencies also employed Palantir to connect databases across departments. Before this, most of the databases used by the CIA and FBI were siloed, forcing users to search each database individually. Now everything is linked together using Palantir."[59]
+
+U.S. military intelligence used the Palantir product to improve its ability to predict locations of improvised explosive devices in its war in Afghanistan. Field practitioners in Afghanistan reported that Palantir's analytical capabilities provided better support than the U.S. Army's Program of Record, the Distributed Common Ground System (DCGS-A), though adoption remained limited across the theater. Congressman Duncan D. Hunter complained of United States Department of Defense obstacles to its wider use in 2012.[141] Palantir has also been reported to be working with various U.S. police departments, for example accepting a contract in 2013 to support the Northern California Regional Intelligence Center in developing a license plate reader database. Civil liberties organizations raised concerns about potential mass surveillance and privacy implications.[142] In 2012, the New Orleans Police Department partnered with Palantir to create a predictive policing program.[143]
+
+In 2014, U.S. Immigration and Customs Enforcement (ICE) awarded Palantir a $41 million contract to build and maintain a new intelligence system called Investigative Case Management (ICM) to track personal and criminal records of legal and illegal immigrants. This application was originally conceived by ICE's office of Homeland Security Investigations (HSI), allowing its users access to other federal and private law enforcement entities' intelligence platforms. The system reached its "final operation capacity" under the Trump administration in September 2017.[144]
+
+Palantir took over the Pentagon's Project Maven contract in 2019 after Google decided not to continue developing AI unmanned drones used for bombings and intelligence.[145] In 2024, Palantir emerged as a "Trump trade" for further enforcing the law on illegal immigrants and profiting on federal spending for national security and immigration.[146] Palantir has a $30 million contract with ICE to track the movement of migrants. The Department of Government Efficiency asked Palantir to help it speed up deportation by creating a master database.[147] In mid-2025, the U.S. Army awarded Palantir an "Enterprise Service Agreement" valued at up to $10 billion over 10 years. This contract vehicle consolidates 75 previously separate data and software contracts (in 15 of which Palantir is the prime contractor and in 60 of which it is a subcontractor) into a single, massive software contract, allowing the Army to procure Palantir’s AI and analytics tools more efficiently and cost-effectively.[citation needed]
+
+National Health Service (England)
+Palantir has contracts relating to patient data from England's National Health Service. In 2020, it was awarded an emergency non-competitive contract to mine COVID-19 patient data and consolidate government databases to help ministers and officials respond to the pandemic. The contract was valued at more than £23.5 million and extended for two more years. The awarding of the contract without competition was heavily criticised, prompting the NHS to pledge an open and transparent procurement process for any future data contract.[148][149][150] Liam Fox encouraged the firm "to expand their software business" in Britain.[151] It was said to be "critical to the success of the vaccination and PPE programmes", but its involvement with the NHS was controversial among civil liberties groups.[152] Conservative MP David Davis called for a judicial review into the sharing of patient data with Palantir.[153]
+
+The procurement of a £480m Federated Data Platform by NHS England, launched in January 2023, has been called a "must win" for Palantir.[154] The procurement has been called a "farce" by civil liberties campaigners who allege that Palantir has a competitive advantage as it "already has its feet under the table in NHS England" and benefits from a short procurement window.[155] In April 2023 it was revealed that a consortium of UK companies had unsuccessfully bid for the contract.[156] In April 2023, Davis publicly expressed his concern over the procurement process, saying it could become a "battle royale". He was one of a dozen MPs pressing the government over privacy concerns with the use of data. Labour peer and former Health Minister Philip Hunt voiced his concern about Palantir's use of data, saying, "The current NHS and current government doesn't have a good track record of getting the details right, and the procurement shows no sign of going better."[157]
+
+Also in April 2023, The Guardian reported that 11 NHS trusts had suspended use of Palantir Foundry software pending resolution of technical implementation issues, according to a Department of Health and Social Care spokesperson.[157] In March 2023, it was revealed that NHS hospitals had been ordered to share patient data with Palantir, prompting renewed criticism from civil liberties groups, including for supporting genocide, privacy and security practices, and "buying their way in".[103][158] Groups including the Doctors' Association UK, National Pensioners' Convention, and Just Treatment subsequently threatened legal action over NHS England's procurement of the FDP contract, citing concerns over the use of patient data.[159]
+
+In 2022, Palantir recruited NHS England's former artificial intelligence chief, Indra Joshi. It said it was planning to increase its team in the UK by 250.[160] Palantir's UK head, Louis Mosley, grandson of the former British Union of Fascists leader Oswald Mosley,[161] was quoted internally as saying that Palantir's strategy for entry into the British health industry was to "Buy our way in" by acquiring smaller rival companies with existing relationships with the NHS to "take a lot of ground and take down a lot of political resistance".[162] In November 2023, NHS England awarded Palantir a £330 million contract to create and manage the Federated Data Platform.[163] In April 2024, medical professionals picketed at NHS England headquarters, demanding that it end its contract with Palantir over contracts with the IDF.[105]
+
+Ministry of Defence (England)
+Palantir has held contracts with the United Kingdom Ministry of Defence (MoD) relating to data analytics capabilities supporting strategic, tactical, and live decision-making.[164]
+
+In December 2022, Palantir was awarded a £75 million Enterprise Agreement to provide its software toolset to meet the UK MoD's requirements across all security classifications for a three-year period, aligned with defence data strategies.[165]
+
+In December 2025, the Ministry of Defence awarded Palantir a further £240 million contract to support data analytics capabilities enabling critical strategic, tactical, and live decision-making across defence operations, including interoperability with NATO systems.[166]
+
+The 2025 contract attracted political scrutiny, with critics raising concerns about transparency surrounding meetings between UK political figures and representatives of the company.[167]
+
+Europol
+Europol has used the Gotham system.[99]
+
+Denmark
+The Danish POL-INTEL predictive policing project has been operational since 2017 and is based on the Gotham system. According to the AP, the Danish system "uses a mapping system to build a so-called heat map identifying areas with higher crime rates."[99] In 2025, when the Danish government was integrating Palantir into the country's military, police and intelligence services, a major argument made by opponents was that the Praxis project (backed by Thiel through Pronomos) threatened Greenland. Other arguments were concerned with Thiel's politics in the U.S., Palantir's association with U.S. and other European intelligence services (Jacob Kaarsbo, a former chief analyst at Danish Defence Intelligence Service, could not name these intelligence services for reasons of confidentiality), and the security risk posed by giving Palantir citizens' data. The Danish National Police answered with a reference to a 2021 response to the Folketing, but otherwise, the Police, the Danish Security and Intelligence Service, and Minister of Justice Peter Hummelgaard refused to comment on the matter.[168][169][170]
+
+Norway
+The Norwegian Customs is using Palantir Gotham to screen passengers and vehicles for control. Known inputs are prefiled freight documents, passenger lists, the national Currency Exchange database (tracks all cross-border currency exchanges), the Norwegian Labour and Welfare Administrations employer- and employee-registry, the Norwegian stock holder registry and 30 public databases from InfoTorg. InfoTorg provides access to more than 30 databases, including the Norwegian National Citizen registry, European Business Register, the Norwegian DMV vehicle registry, various credit databases etc. These databases are supplemented by the Norwegian Customs Departments own intelligence reports, including results of previous controls. The system is also augmented by data from public sources such as social media.[171]
+
+Germany
+In 2023, German interior minister Nancy Faeser stopped the federal use of Palantir.[172] As of July 2025, German police departments in three of its 16 states—Bavaria, Hesse, and Nordrhein-Westfalen—have used Palantir for data mining. In March, Baden-Württemberg entered a $25 million contract without a legal basis to use the software.[173]
+
+France
+In France, after the November 2015 Paris attacks, the Directorate-General for Internal Security signed a contract with Palantir, which was extended in 2019.[174] President Emmanuel Macron said Palantir would retain its role in the French intelligence sector until the end of his term in office, but a replacement program was launched in May 2017.[175]
+
+Ukraine
+Karp claims to have been the first CEO of a large U.S. company to have visited Ukraine after the 2022 Russian invasion.[176] Palantir's technology has since been used close to the front lines.[177] It is used to shorten the "kill chain" in Russo-Ukrainian War.[178] According to a December 2022 report by The Times, Palantir's AI has allowed Ukraine to increase the accuracy, speed, and deadliness of its artillery strikes.[179] Ukraine's prosecutor general's office also plans to use Palantir's software to help document alleged Russian war crimes.[180]
+
+Netherlands
+In 2025, Dutch Justice Minister David van Weel publicly confirmed that Dutch police departments had used Palantir software since 2011, a use that had remained largely undisclosed. Over the subsequent decade, researchers seeking government transparency were repeatedly denied, with documents finally released only after litigation but with 99% of content redacted. They show that many contracts with Palantir were signed.[181]
+
+Israel
+See also: List of companies involved in the Gaza war
+Palantir's London office was the target of demonstrations by pro-Palestine protesters in December 2023 after it was awarded a large contract to manage NHS data. The protesters accused Palantir of being "complicit" in Israeli war crimes in the Gaza war because it provides the Israel Defence Force (IDF) with intelligence and surveillance services, including a form of predictive policing.[110] In January 2024, Palantir agreed to a strategic partnership with the IDF under which it would provide the IDF with services to assist its "war-related missions".[182] Karp has been emphatic in his public support for Israel. He has frequently criticized what he calls the inaction of other tech leaders. His position has prompted several employees to leave Palantir.[183]
+
+In 2024, Irish politician and former Palantir employee Eoin Hayes was suspended by his party, the Social Democrats, for saying at a press conference that he had sold shares in Palantir before he entered politics, when he had sold the shares a month after being elected as a city councillor. Hayes corrected the date in a statement issued that day and provided additional details later.[184][185][186] The Social Democrats criticized the Israeli invasion of the Gaza Strip and accused Hayes of "profiting from genocide".[187] In May 2025, a pro-Palestinian protest was held in Denver against Congressman Jason Crow for repeatedly accepting campaign donations from Palantir.[188]
+
+Switzerland
+In late 2025, the left-leaning Swiss publication Republik revealed internal reports by the Swiss federal government that Switzerland had been courted as a client of Palantir since 2018. Palantir has offices in Zurich and Bern, and the Swiss Defence Department through Armasuisse was initially interested in buying Palantir's information systems, but larger deals with the Swiss government were rejected out of concern that data could be released to U.S. intelligence agencies. The publication also mentioned a possible reputational risk if Switzerland had adopted such surveillance software. Later it was made public that Palantir attempted to sue Republik for not having the right to reply to the allegations.[189][190]
+
+Other
+Cyber analysts at Information Warfare Monitor, a Canadian public-private venture that operated from 2003 to 2012, used Palantir Gotham.[191][192][193] The International Atomic Energy Agency (IAEA) used Palantir to verify whether Iran was in compliance with the 2015 agreement.[64]
+
+Partnerships with corporations
+United States
+Palantir's partnership with Anduril Industries extends to many areas. In later 2024, there were reportedly building and leading a consortium with another dozen contractors, including SpaceX, OpenAI, and Saronic, to challenge the domination of the traditional "primes".[194][195] They also partner with EVTOL company Archer Aviation.[196] Alongside 8VC and General Catalyst, Palantir also helped create and is a member of the New American Industrial Alliance.[197][198] The other members are other defense contractors and hardtech companies, such as Anduril, Andreessen Horowitz, Hadrian, Oklo Inc., Narya Capital, Booz Allen, Joby Aviation, Regent Craft, Atomic Industries, Impulse Space, and Dirac, which hope to reduce government regulations.[199][200]
+
+Palantir, TWG Global, and xAI have a joint venture.[201] Palantir collaborates with Anthropic and Amazon Web Services to provide Anthropic's Claude AI models to U.S. intelligence and defense agencies.[202] It also partners with the traditional defense "primes": Boeing (specifically its defense and space unit),[203] Lockheed Martin,[204] Northrop Grumman (TITAN system),[205] and General Dynamics (through General Dynamics Land System).[206]
+
+Palantir is known to disrupt the traditional consulting business model.[207][208] It also partners with traditional companies (and rivals in government contract) such as Deloitte, Booz Allen, and Accenture.[209][210][211] On February 8, 2021, Palantir and IBM announced a partnership that would use IBM's hybrid cloud data platform alongside Palantir's operations platform for building applications. The product, Palantir for IBM Cloud Pak for Data, was expected to simplify the process of building and deploying AI-integrated applications with IBM Watson.[212] On March 5, 2021, Palantir announced its partnership with Amazon AWS. Palantir's ERP Suite was optimized to run on Amazon Web Services. BP used the ERP suite.[213] On August 8, 2024, Palantir and Microsoft announced a partnership whereby Palantir will deploy its suite of products on Microsoft Azure Government clouds.[214][215]
+
+Korea
+In Korea, Palantir has strategic relationships with HD Hyundai and KT. It has a data alliance with HD Hyundai and partners with HD Hyundai and Siemens to automate shipbuilding for both Korea and the U.S.[216][217] KT cooperates with Palantir to scale Foundry and AIP across Korean industries.[218][219] In 2025, Samsung partnered with Palantir to increase the yield and quality of its chips.[220]
+
+Germany
+SAP has strategic partnerships with Palantir and Perplexity, aiming to enhance SAP's business AI offerings.[221] Palantir also partners with SAP's U.S.-based branch, SAP National Security Services, to offer AI systems to the U.S. public sector.[222] Palantir has a partnership with Axel Springer SE,[223][224] a publisher known to have a close relationship with Karp, who sat on its board,[225] and Thiel, who employed Springer's Mathias Döpfner's son Moritz as his chief of staff and business associate. Some German media outlets have speculated about Thiel's political influence in Germany through his relationships with media executives and his investment in emerging political figures.[226] Palantir partners with Merck KGaA through joint ventures Syntrophy, which focuses on cancer data analytics, and Athinia, which focuses on the semiconductor sector.[227][228] Palantir is strategic partners with Helsing.[229] Espreso TV has linked the unusual number of defense CEOs (Brian Schimpf of Anduril Industries, Gundbert Scherf of Helsing, and Karp) at the 2025 Bilderberg Conference to Thiel's influence.[230]
+
+United Arab Emirates
+On November 4, 2025, a joint venture between Palantir and Dubai Holding, the Dubai government’s investment arm, was announced. The New Arab noted that the partnership came just a day after Microsoft revealed plans to invest $15.2 billion in AI and cloud computing projects across the UAE.[231]
+
+Controversies
+Palantir has been criticized for its role in expanding government surveillance using artificial intelligence and facial recognition software.[21][22] Some former employees and critics say the company's contracts under the second Trump Administration, which enable deportations and the aggregation of sensitive data on Americans across administrative agencies, are problematic.[23][24] Others observe that Palantir does not collect or store data, but only helps analyze data that customers have already collected and provides services and platforms where customers retain the rights; however, it is generally accepted that abuses by governments and data management failures can happen.[25][232][233][234] Wired has written:
+
+Still others think it maintains a giant, centralized database of information collected from all of its clients. In reality, Palantir does none of these things, but the misconceptions continue to persist ... Crucially, Palantir doesn't reorganize a company's bins and pipes, so to speak, meaning it doesn't change how data is collected or how it moves through the guts of an organization. Instead, its software sits on top of a customer's messy systems and allows them to integrate and analyze data without needing to fix the underlying architecture. In some ways, it's a technical band-aid. In theory, this makes Palantir particularly well suited for government agencies that may use state-of-the-art software cobbled together with programming languages dating back to the 1960s.[25]
+
+Citing a former Palantir employee, Wired reported that the government can rely on Gotham to "centralize everything an agency knows about a person in one place".[25] Incidents of data leaks or mismanagement have been noted, including the 2015 data leak in which Techcrunch received documents that revealed the tools Palantir used and a list of key customers;[235] the 2021 software misconfiguration that allowed some FBI employees unwarranted access (which, according to Palantir, was because the end user did not follow the protocols);[236] and the 2025 lawsuit Palantir filed against former employees Radha Jain and Joanna Cohen for stealing data to launch a "copycat" company with the help of General Catalyst (the two engineers had been entrusted with the source code and Cohen was noted to have interacted with Palantir's important customers).[237] In December 2025, Palantir expanded its lawsuit to include the CEO of Percepta AI.[238]
+
+Asahi Shimbun wrote, "While Palantir works to protect the U.S. and its allies from Islamist terrorism and infringement on freedoms by authoritarian states, there is also concern that Palantir's software can be perverted by governments to surveil the public or curtail civil liberties."[239] Politico wrote that Palantir does "not collect data, they do not store data and they definitely don't sell data" and that it is the end user who decides how rigorously they use the platform's safety measures.[26] Commentators note that Palantir does provide safety features like auditing functions, but customers, including governments, can disable them. Nevertheless, the book Group Privacy: New Challenges of Data Technologies says this method might open the way to a solution whereby technology can enhance accountability as well.[240][241] The tech writer Karl Montevirgen wrote in Encyclopædia Britannica, "Palantir stands as one of the most consequential and controversial data analytics firms of the early 21st century. Straddling the worlds of enterprise software, national security, and AI, its rise highlights a broader tension within the industry: The same tools enabling unprecedented insight and efficiency can also enable digital surveillance and profiling. Palantir's legacy is one of polarization—celebrated for its technical power, yet persistently questioned for how that power is used."[242]
+
+Algorithm development
+i2 Inc sued Palantir in Federal Court, alleging fraud, conspiracy, and copyright infringement over Palantir's algorithm. Shyam Sankar, Palantir's then-director of business development, used a private eye company known as the cutout for obtaining i2's code. i2 settled out of court for $10 million in 2011.[122]
+
+WikiLeaks proposals (2010)
+In 2010, Hunton & Williams LLP allegedly asked Berico Technologies, Palantir, and HBGary Federal to draft a response plan to "the WikiLeaks Threat". In early 2011 Anonymous publicly released HBGary-internal documents, including the plan. The plan proposed that Palantir software would "serve as the foundation for all the data collection, integration, analysis, and production efforts".[243] The plan also included slides, allegedly authored by HBGary CEO Aaron Barr, which suggested "[spreading] disinformation" and "disrupting" Glenn Greenwald's support for WikiLeaks.[244] Palantir CEO Alex Karp ended all ties to HBGary and issued a statement apologizing to "progressive organizations ... and Greenwald ... for any involvement that we may have had in these matters". Palantir placed an employee on leave pending a review by a third-party law firm. The employee was later reinstated.[243]
+
+Racial discrimination lawsuit (2016)
+On September 26, 2016, the Office of Federal Contract Compliance Programs of the U.S. Department of Labor filed a lawsuit against Palantir alleging that the company discriminated against Asian job applicants on the basis of their race.[245] According to the lawsuit, the company "routinely eliminated" Asian applicants during the hiring process, even when they were "as qualified as white applicants" for the same jobs.[246] Palantir settled the suit in April 2017 for $1.7 million while not admitting wrongdoing.[247]
+
+UK
+During questioning in front of the Digital, Culture, Media and Sport Select Committee, Christopher Wylie, the former research director of Cambridge Analytica, said that Palantir and Cambridge Analytica had had several meetings and that SCL chief executive Alexander Nix had facilitated its use of Aleksandr Kogan's data, which had been obtained from his app "thisisyourdigitallife" by mining personal surveys. Kogan later established Global Science Research to share the data with Cambridge Analytica and others. Wylie confirmed that employees from both Cambridge Analytica and Palantir used Kogan's Global Science Research and harvested Facebook data together in the same offices.[248][249] Palantir said it had contact with Cambridge Analytica but decided not to move forward with a relationship. Palantir also said that it discovered only in March 2018 that one of its employees, Alfredas Chmieliauskas, had worked with Cambridge Analytica in a personal capacity.[250] When shown proof of Chmieliauskas's activities, the company retracted its denial and issued a press release saying that Chmieliauskas had "engaged in an entirely personal capacity".
+
+Testifying before British lawmakers the same day the Times published its story about Palantir and CA, Wylie said that "senior Palantir employees" had also been involved with CA. He said that "Palantir staff would come into the [CA] office and work on the data". In an interview with the Times, Wylie said that he and Nix had visited Palantir's London office.[251] The New York Times wrote, "emails reviewed by The Times indicate that Mr. Nix and Mr. Chmieliauskas sought to revive talks about a formal partnership through early 2014, but Palantir executives again declined." Wylie admitted that Palantir and Cambridge Analytica signed no contract and had no formal relationship. The New York Times also wrote that Wylie did not identify or specify the number of Palantir employees that he mentioned.[252] In June 2021, reacting to the NHS's use of Foundry, the tech-justice nonprofit Foxglove began a campaign against Palantir because "Their background has generally been in contracts where people are harmed, not healed." Supporting the campaign, Clive Lewis MP said Palantir had an "appalling track record".[253] Palantir UK is headed by Louis Mosley, grandson of British fascist leader Oswald Mosley.
+
+ICE partnership (since 2014)
+Palantir has come under criticism due to its partnership developing software for U.S. Immigration and Customs Enforcement (ICE). Palantir responded in 2018 that its software is not used to facilitate deportations. In a statement provided to The New York Times,[254] the firm implied that because its contract was with HSI, a division of ICE focused on investigating criminal activities, it played no role in deportations. In 2017, The Intercept obtained documents that disprove this claim and show that ICE considers Palantir's ICM software "mission critical".[144] The documents obtained by The Intercept and Mijente, an immigration advocacy group, show that in 2017 HSI and ERO undertook a joint operation using the ICM database to arrest and possibly deport family members of undocumented children caught trying to cross the border. In August 2019, when HSI, deploying FALCON, led a raid on food-processing plants in Mississippi, nearly 700 people were arrested. In an interview with CNBC a few months later, Karp acknowledged that Palantir's blanket denials had been misleading.[citation needed] But in 2019, he renewed Palantir's contract with ICE for $50 million over three years.[255] Other groups critical of Palantir include the Brennan Center for Justice,[256] National Immigration Project,[257] the Immigrant Defense Project,[258] the Tech Workers Coalition, and Mijente.[259] In one internal ICE report Mijente acquired, Palantir's software was said to have been critical in an operation to arrest the parents of children residing illegally.[260] In September 2020, Amnesty International released a report criticizing Palantir's failure to conduct human rights due diligence for its contracts with ICE. Palantir's human rights record has been scrutinized for contributing to human rights violations of asylum-seekers and migrants.[261][262] In April 2025, Palantir signed a new $30 million contract with ICE to provide software for a new platform called ImmigrationOS, which would expedite deportations.[263]
+
+Immigration Lifecycle Operating System (Immigration OS)
+In April 2025, Palantir was reported to be working closely with ICE to enable deportation in the second presidency of Donald Trump.[264] ICE reportedly paid Palantir $30 million to develop the Immigration Lifecycle Operating System (Immigration OS).[265] The Washington Post reported that Palantir developed the software to track undocumented immigrants with the goal of deporting them faster.[266] The Immigration OS project was renewed in September 2025, despite facing some Palantir employees questioning whether "the contract should be discontinued if ICE's use of the technology veers into extrajudicial actions or violate the company's civil liberties principles".[266] In an October 2025 interview with The New York Times, Palantir chief technology officer Shyam Sankar said that Immigration OS "tracked encounters at the border, asylum applications and applications for benefits". According to Palantir, Immigration OS "does not track information of U.S. citizens who are relatives of undocumented immigrants".[266][267]
+
+The Immigration OS project has also been criticized by Y Combinator co-founder Paul Graham, who wrote that Palantir is "building the infrastructure of the police state".[266] Palantir's continued affiliation with ICE coincided with the changes to its employee code of conduct that were made in response to executive orders by President Trump forbidding federal contractors from diversity practices.[266] In 2022, DHS awarded Palantir $139.3 million for "investigative case management operations, maintenance support services and custom enhancements"; the contract is ongoing as of January 2026.[268][269]
+
+"HHS Protect Now" and privacy concerns (2020)
+The COVID-19 pandemic prompted tech companies to respond to growing demand for citizen information from governments in order to conduct contact tracing and to analyze patient data.[270] Consequently, data collection companies such as Palantir had been contracted to partake in pandemic data collection practices. Palantir's participation in "HHS Protect Now", a program launched by the United States Department of Health and Human Services to track the spread of the coronavirus, attracted criticism from US lawmakers.[271]
+
+Palantir's participation in COVID-19 response projects reignited debates over its involvement in tracking illegal immigrants, especially its alleged effects on digital inequality and restrictions on online freedoms. Critics allege that confidential data acquired by HHS could be exploited by other federal agencies in unregulated and potentially harmful ways.[271] Alternative proposals request greater transparency in the process to determine whether any of the data aggregated would be shared with the US Immigration and Customs Enforcement to single out illegal immigrants.[271]
+
+Second Trump administration (2025)
+According to required financial disclosures, Stephen Miller, who as United States homeland security advisor has been actively involved in the second Trump administration's deportation efforts, owns between $100,000 and $250,000 of Palantir stock; some Trump critics have raised concerns about a potential conflict of interest.[272][273][274] Similar financial disclosure requirements of U.S. government employees show that at least 10 other members of the Trump administration own Palantir stock.[275] Advocacy groups such as the Alliance for Secure AI have also criticized Palantir's use of AI during the second Trump administration.[276][277]
+
+In February 2025, The New York Times reported that Trump and Palantir were compiling a master list of personal information on every American that could give Trump "untold surveillance power" by illegally combining information from various government departments.[278][279][280][281][282][283] Palantir denies this, and according to Snopes, there is no evidence Palantir is compiling such a database.[284]
+
+Part of a series on the
+Immigration policy of the
+second Trump administration
+Operations
+Leadership
+Policies
+Targeting of U.S. citizens
+Targeting of immigrants
+Tech and contractors
+Controversies involving private businessesPrivate prisons CoreCivicGEO GroupTechnology sector CellebriteClearview AIFlock SafetyMicrosoftNEC Mobile FortifyPalantir Technologies ELITEParagon SolutionsSpotifyInternally developed CBP HomeStingray phone trackerOther controversies CBS News (60 Minutes)Hilton WorldwideHome DepotKey Lime Air
+Detention facilities
+Controversies
+Litigation
+Protests
+Related articles
+vte
+In December 2025, it was reported that Palantir had begun developing a portal for the Department of Education, allowing universities to report foreign donations. The company is acting as a subcontractor of Monkton, a computer and network security company, which won a $9.8 million contract to design, develop, and deploy a "Section 117 Information Sharing Environment Capable of Providing Greater Transparency".[285][286][287]
+
+German police software (2020s)
+There is considerable controversy about the use of Palantir by the state and the Federal Ministry of Interior's ongoing attempt to introduce it at the federal level. The controversy also elicits debate from neighboring countries, with De Tijd noting that even when a German court ruled the software unconstitutional in 2023, it was not abandoned, and the law was changed.[288][289][174]
+
+The controversy also touches on Thiel's and Karp's German origins and alleged relationships with powerful political and economic actors in Germany (especially in the wealthier, more powerful states, such as Bavaria, Baden-Württemberg, North Rhine-Westphalia, and Hesse).[290][291] Hesse is Thiel's home state (he was born in Frankfurt), and Karp completed his PhD there.[292][293] Hesse was the first federal state to introduce Palantir software (as Hessendata, since 2017[294]) while Bavaria promotes its VeRA version at the federal level. Bavaria Minister of the Interior Joachim Herrmann has said that VeRA must be used nationwide to "create a uniform and effective security infrastructure".[295]
+
+There is also debate about the founders' application of the philosophy of René Girard, Nietzsche, Carl Schmitt, and the Frankfurt School at Palantir and in the surveillance industry.[296][297][298][299][300][301] According to a 2025 documentary produced by Hessischer Rundfunk, Karp, like Thiel, seeks world domination.[302] Franz-Josef Hanke, a spokesperson for the Humanist Union in Hesse, has also said that this is Thiel's goal with Palantir.[303]
+
+The German version of Jacobin has written that while Palantir does not steal data or carry out surveillance activity, its increased power in Germany is still worrisome, considering the founders' non-democratic tendencies, and that SPD and Alliance 90/The Greens also carry responsibility.[304] The European has written that Thiel and Karp cause themselves trouble by trying to create a mysterious aura, which leads to a negative reaction to Palantir software despite its usefulness in civilian and defense applications.[305]
+
+According to an August 2025 Süddeutsche Zeitung article, a YouGov poll on behalf of the SZ Dossier found that a slim majority of Germans support federal agencies' use of Palantir: 51% of respondents partly or completely supported it, 30% partly or completely opposed it, and 19% did not give a response.[306] Nevertheless, civil skepticism of the company and software remains prominent; a petition on the platform Campact gathered 84,000 signatures against Palantir within a few hours and has more than 400,000 as of September 2025.[307][308][309]
+
+Corporate affairs
+
+Alex Karp at work, December 2015
+Leadership
+Board of directors
+As of January 2026, the board of directors of Palantir includes:[310]
+
+Alex Karp, CEO of Palantir
+Alexander Moore, co-founder and former CEO of NodePrime
+Alexandra Schiff, former reporter of The Wall Street Journal
+Stephen Cohen, co-founder and president of Palantir
+Peter Thiel, co-founder of PayPal, Palantir and Founders Fund
+Lauren Friedman Stat, former Fractional Chief Administration Officer at Friendly Force
+Eric Woersching, former general partner at Initialized Capital
+Executive management
+As of October 2025, the executive management of Palantir includes:[311]
+
+Alex Karp, CEO. He is also co-managing director at Frankfurt-based Palantir Technologies Gmbh.[312][313]
+Stephen Cohen, Co-Founder, President, Secretary, and Director
+Shyam Sankar, Chief Technology Officer and Executive Vice President
+David Glazer, Chief Financial Officer and Treasurer
+Ryan Taylor, Chief Revenue Officer and Chief Legal Officer
+Other personnel
+Jamie Fly, former Radio Free Europe president and CEO, serves as senior counselor to the CEO.[314] Fabrice Brégier is president of Palantir France. He is the former COO and president of commercial aircraft at Airbus.[315][316][317] Koichi Narasaki is CEO of Palantir Japan. Previously he was group chief digital officer of SOMPO Holdings, with which Palantir has a joint venture.[318][319] Louis Mosley is the head and executive vice president of Palantir Technologies UK.[320][321] Details about Palantir Korea's boards of directors are not fully known, but one board member is Shawn Pelsinger, who is also Acrisure's chief administrative officer.[322][323]
+
+As a firm doing sensitive work for governments, Palantir has connections with politicians, and some of its former employees have become public officials. This type of relationship (sometimes called a "revolving door") can cause controversy.[198][324] Laura Rudas [de] is the executive vice president of strategy.[325] She is a former Austrian politician, having served as secretary-general of the Social Democrats and as a member of the Austrian Parliament. She left for Palantir despite having won a national reelection campaign.[326][327] Mike Gallagher, former Chair of the House Committee on the Chinese Communist Party (2023–2024), is head of defense.[325]
+
+French politician Julie Martinez (Socialist Party) is global data protection officer (she has worked for Palantir for three years) and her party's spokesperson, having been appointed to this office in September 2025. Her and Palantir's reputation have caused controversy in France, but her party says the situation is not problematic. She also heads the think tank France Positive.[328][329][330]
+
+David MacNaughton, former ambassador of Canada to the United States (2016–2019), is president of Palantir Technologies Canada. He resigned his ambassadorship to join the firm. His activities involving Palantir before and after resignation have been controversial.[331][332][333] Jacob Helberg, former senior advisor to Karp, is now the U.S. Under Secretary of State for Economic Growth, Energy, and the Environment.[334][324] Mike Kelly is president of Palantir Australia.[335][336] He served as Parliamentary Secretary for Defence from 2011 to 2013 and Minister for Defence Materiel in 2013.[337] Matthew Turpin, former director for China at the White House National Security Council and senior advisor for China to the Secretary of Commerce during the first Trump administration, serves as senior advisor.[338][339]
+
+Ownership
+The largest shareholders of Palantir in early 2024 were:[127]
+
+Shareholder name	Percentage
+The Vanguard Group	9.4%
+Peter Thiel	7.2%
+BlackRock	4.7%
+SOMPO Holdings	3.9%
+Alex Karp[340]	2.5%
+Renaissance Technologies	2.1%
+State Street Corporation	1.9%
+Geode Capital Management	1.4%
+Jane Street Capital	1.1%
+Eaton Vance	1.1%
+D. E. Shaw & Co.	1.0%
+Others	66.2%
+Voting structure
+Palantir has a special voting structure, tied to the classification of shares into Class A, Class B and Class F. The Class F shares, totaling 1,005,000, are managed by the Founder Voting Trust and owned equally by the three founders Thiel, Karp, and Cohen, which ensures them a 49.99% voting interest regardless of the number of other shares they hold or the number of new shares the company issues.[341][342][343] In response to criticism that the founders wanted to remain "emperors for life", they said the creation of the Class F shares did not violate the law or the company charter and had been approved by a majority of other Palantir investors when the firm went public in 2020.[344] In 2025, Bloomberg wrote:
+
+Because of the company's growing role in world affairs, super voting shares also confer real power onto Thiel, Karp and Cohen that will extend to the company's relationships with militaries and other agencies.
+
+That could come in handy if, say, the company received a takeover bid from a foreign adversary. And it could prevent the company from bending to pressure from bad actors, domestically or otherwise, while allowing management to stay the course on long-term plans. But it also insulates an increasingly powerful company from a measure of accountability offered by the public markets.[345]
+
+The founders, executives, and "insiders" also hold Class B shares, each of which carries ten votes, while the publicly traded Class A shares carry only one vote each. Class B shares can be converted to Class A shares on a 1-to-1 basis to be sold to outsiders.[342][341][343][346][347]
+
+Finances
+For the fiscal year 2024, Palantir reported earnings of $462 million, with annual revenue of $2.9 billion, an increase of 28.8% over the previous fiscal cycle.
+
+Year	Revenue
+(US$ ml.)	Net income
+(US$ ml.)	Total assets
+(US$ ml.)	Employees
+2018	595	−598	−	−
+2019	743	−588	3,735	2,391
+2020[348]	1,093	−1,166	2,691	2,439
+2021[349]	1,542	−520	3,247	2,920
+2022[350]	1,906	−374	3,461	3,838
+2023[351]	2,225	210	4,522	3,735
+2024[1]	2,866	462	6,341	3,936
+Influence on other companies
+Palantir's success has led a new wave of companies (mostly in the defense sector) to follow its business model, often connected to its personnel. The Wall Street Journal and Business Insider have described a "Palantir Mafia" that they compared to the PayPal Mafia. The Wall Street Journal has written that venture-capital firms, such as Palumni VC and XYZ Capital, have emerged with a mission to invest in startups founded by former Palantir employees.[352] Those mentioned include founders of companies like Anduril Industries, 8VC, Addepar, and Ironclad.[353][352] Joe Lonsdale also co-founded anti-drone tech startup Epirus.[354][355]
+
+The German unicorn Helsing was built as a German or European answer to Palantir.[356][357] Thiel also had a role in Helsing's success, and the company is considered part of the "Thiel ecosystem", though he does not directly invest in it.[230][229] Govradar is a startup focused on public procurement for the German government and Bundeswehr. It was founded in 2020 by former Palantir employee Sascha Goyk, who has also served as a Bundeswehr reserve officer since 2005. His task at Palantir was developing solutions to make the company's data analytics platform accessible to German police and intelligence agencies, but because Palantir faced intense scrutiny, he left and founded his own company.[358] Nordic Air Defence (NAV) is a Swedish startup developing counter-drone missile technology that is staffed by former employees of Palantir and Quantum-Systems, which is backed by Thiel Capital. Thiel-backed SNÖ Ventures invests in NAV.[229]
+
+The French startup Comand AI, founded in 2023 by Antoine Chassang (ex-Snapchat) and Loïc Mougeolle (ex-Naval Group), aims to be a more adaptive alternative to Palantir. Its team was poached from Palantir, OpenAI, and Anduril.[359][360] The British company Arondite was founded by Will Blyth (also CEO), a former British Army officer who had also worked for Palantir and Helsing.[361] The Israeli defense tech startup Kela was founded by Hamutal Meridor (president, former officer in the Israeli army, and former head of Palantir's general operations in Israel), Alon Dror (CEO and former Israeli tank platoon commander), Jason Manne, and Omer Bar Ilan. Like Palantir, Kela develops commercial and military systems "in service of Western defense".[362][363][364] London-based Conduct is a company founded by three ex-Palantir employees to overhaul legacy ERP systems, with a focus on SAP.[365]
+
+In 2024, alongside General Catalyst and Red Cell Partners, the Founders Fund incubated the defense incubator Valinor Enterprises. The co-founders are former Palantir senior vice president Julie Bush (CEO), Trae Stephens, General Catalyst's Paul Kwan, and Red Cell's Grant Verstandig.[366][367] The team is sourced from Palantir, Anduril, and Helsing. The firm also has strategic relationships with these companies.[368][369] In 2025, biodefense company Valthos emerged from stealth, with backing from Lux Capital, OpenAI, and Founders Fund. Its co-founders are Kathleen McMahon (CEO), who previously served as leader of Palantir's life sciences division, and Lux Capital partner Tess van Stekelenburg.[370] Beijing-based Deepexi (滴普科技) is seen as China's effort to build a version of Palantir. It went public in Hong Kong on October 28, 2025.[371][372] Its website calls it an "enterprise- large-model artificial intelligence (AI) application solution provider and a National Specialised and Innovative 'Little Giant' Enterprise", using a "general-purpose enterprise operational decision-making large model".[373] The IPO prompted Brijesh Singh, a senior IPS officer, to call on India to build a similar company to treat data as strategic infrastructure and fuse the military and civil spheres.[374]
+
+Palantir Startup Fellowship
+Palantir Startup Fellowship is a global program designed to accelerate AI startups and help them to integrate their infrastructure with Palantir's software.[375][376] Companies selected for the first cohort include Korean Enhans (solutions for real-time decision making),[377][378] and Rune Technologies (a military logistics company founded by Anduril alumni and backed by Andreessen Horowitz).[379][380]
+
+See also
+Government by algorithm
+Military AI
+Data management platform
+References
+ "US SEC: Form 10-K Palantir Technologies Inc". U.S. Securities and Exchange Commission. February 17, 2026. Retrieved March 15, 2026.
+ Bursztynsky, Jessica (August 19, 2020). "Palantir to relocate headquarters from Silicon Valley to Colorado". CNBC. Archived from the original on October 28, 2020. Retrieved October 5, 2020.
+ "Palantir Platforms". Palantir. Archived from the original on February 2, 2024. Retrieved February 2, 2024.
+ Steinberger, Michael (October 21, 2020). "Does Palantir See Too Much?". The New York Times Magazine. ISSN 0362-4331. Archived from the original on January 4, 2021. Retrieved November 2, 2020.
+ "Stephen Cohen, Palantir Technologies Inc: Profile and Biography". Bloomberg. Retrieved May 19, 2025.
+ Chernova, Yuliya (June 12, 2019). "Palantir Co-founder Says IPO for Company Likely Years Away". The Wall Street Journal. Retrieved October 28, 2024.
+ Dowd, Maureen (August 17, 2024). "Alex Karp Has Money and Power. So What Does He Want?". The New York Times. Retrieved May 19, 2025.
+ Liy, Macarena Vidal (March 8, 2025). "Palantir, Trump's 'big brother' dominating the stock market". EL PAÍS English.
+ Au-Yeung, Angel (September 30, 2020). "Palantir IPO Cements Billionaire Fortunes For Cofounder Peter Thiel And CEO Alexander Karp". Forbes.
+ "Palantir advises clients against using DeepSeek's AI tech; forecasts upbeat 2025 revenue". reuters.com. February 4, 2025.
+ "Peter Thiel's Palantir Wins Role in $823 Million Government Contract". Bloomberg. February 25, 2020. Archived from the original on October 28, 2020. Retrieved March 18, 2020.
+ "Palantir CEO Alex Karp said although the company won't build tools that predict crimes, Palantir would do it 'very well'". Business Insider.
+ "What Is an IL5 Certification?". Akamai. November 13, 2024. Archived from the original on November 13, 2024. Retrieved November 13, 2024. IL5 is a certification by the United States Department of Defense (DoD) that authorizes a cloud service provider (CSP) to store and process some of the DoD's most sensitive data. The IL5 certification indicates that a CSP has the level of controls, protocols, and technologies to securely handle Controlled Unclassified Information (CUI) that is deemed to be mission critical. The security controls required for IL5 certification are among the strictest in the cloud services industry. [...]
+
+* Impact Level 5 (IL5) is for DoD CUI and National Security Systems (NSS)
+ Gorman, Siobhan (September 4, 2009). "How Team of Geeks Cracked Spy Trade". The Wall Street Journal. Archived from the original on April 16, 2019. Retrieved August 8, 2017.
+ "A Tech Fix For Illegal Government Snooping?". NPR.org. NPR. Archived from the original on October 28, 2020. Retrieved January 30, 2012.
+ "Palantir Posted Nearly $1 Billion in 2018 Sales, Executive Says". Bloomberg.com. Bloomberg. January 16, 2019. Archived from the original on October 28, 2020. Retrieved February 21, 2019.
+ "Apollo". Palantir. Archived from the original on December 14, 2021. Retrieved December 14, 2021.
+ "Palantir Apollo | Continuous deployment is achievable at scale — no matter the complexity or constraints". Palantir. Archived from the original on February 2, 2024. Retrieved February 2, 2024.
+ Steinberger 2025, p. 209.
+ Rosenbach, Marcel; Sperber, Sandra; Yüksel, Yasemin (November 13, 2025). "Peter Thiel und Alex Karp: Palantir – wie mächtig ist die Analysefirma wirklich? – Podcast Firewall". Der Spiegel (in German).
+ Hvistendahl, Mara (January 30, 2021). "How the LAPD and Palantir Use Data to Justify Racist Policing". The Intercept. Retrieved June 24, 2025.
+ Allyn, Bobby (May 3, 2025). "How Palantir, the secretive tech company, is rising in the Trump era". NPR. Retrieved June 24, 2025.
+ "Trump appears to be building an unprecedented spy machine that could track Americans". MSNBC.com. May 30, 2025. Retrieved June 24, 2025.
+ Frenkel, Sheera; Krolik, Aaron (May 30, 2025). "Trump Taps Palantir to Compile Data on Americans". The New York Times. ISSN 0362-4331. Retrieved June 24, 2025.
+ Haskins, Caroline. "What Does Palantir Actually Do?". Retrieved October 13, 2025.
+ McHugh, Calder (November 6, 2025). "The Tech CEO 'Making No Apologies for the Work With ICE'". Politico.
+ Fry, Hannah (September 18, 2018). "Hello World: Being Human in the Age of Algorithms". W. W. Norton & Company. ISBN 978-0-393-63500-3.
+ "About Palantir". Palantir. Retrieved October 19, 2025.
+ "Registration Statement on Form S-1". www.sec.gov. Retrieved October 19, 2025.
+ Greenberg, Andy. "How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut". Retrieved July 30, 2025.
+ Greenberg, Andy; Mac, Ryan (August 14, 2013). "How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut". Forbes. Archived from the original on June 4, 2015. Retrieved September 7, 2017.
+ Watching you – Die Welt von Palantir und Alex Karp: Watching you - Die Welt von Palantir und Alex Karp - hier anschauen (in German). Event occurs at 1h 13min. Retrieved July 30, 2025.
+ "charlierose". Media.palantirtech.com. Archived from the original on February 1, 2012. Retrieved January 30, 2012.
+ "a6609178ex10-3.htm". www.sec.gov. Retrieved August 23, 2025.
+ "IQT | About | Our Milestones". www.iqt.org. Archived from the original on July 1, 2025.
+ Lalka, Rob (2024). The Venture Alchemists: How Big Tech Turned Profits Into Power. Columbia University Press. pp. 247, 248. doi:10.7312/lalk21026. ISBN 978-0-231-21026-3. JSTOR 10.7312/lalk21026. Retrieved August 22, 2025.
+ King, Anthony (August 19, 2025). AI, Automation, and War: The Rise of a Military-Tech Complex. Princeton University Press. p. 84. ISBN 978-0-691-26514-8. Retrieved August 22, 2025.
+ Harris, Shane (July 31, 2012). "Palantir Technologies spots patterns to solve crimes and track terrorists". Wired.
+ "Contact information". Archived from the original on September 6, 2013. Retrieved September 10, 2013.
+ Greenberg, Andy; Mac, Ryan (September 16, 2013). "How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data Miner". Forbes India.
+ Wilhelm, Alex (July 7, 2020). "As Palantir preps IPO, a look back at its growth history". TechCrunch. Retrieved August 22, 2025.
+ Steinberger, Michael (November 4, 2025). The Philosopher in the Valley: Alex Karp, Palantir, and the Rise of the Surveillance State. Simon and Schuster. p. 73. ISBN 978-1-6680-1297-0.
+ Steinberger 2025, pp. 64, 66, 209.
+ Ganz, John (February 21, 2025). "Palantir's Call to Arms Is Also a Sales Pitch". Bloomberg.com.
+ "Book Review: The Technological Republic: Hard Power, Soft Belief, and the Future of the West , Alexander C. Karp and Nicholas W. Zamiska". Independent Institute. 2025. Retrieved December 6, 2025.
+ McCordick, Jack (February 28, 2025). "Alex Karp's War for the West". The New Republic. Retrieved November 29, 2025.
+ Au-Yeung, Angel (November 2, 2025). "Palantir Thinks College Might Be a Waste. So It's Hiring High-School Grads". The Wall Street Journal. Retrieved November 29, 2025.
+ Widman, Jeff (June 5, 2009). "Palantir keeps it lean and mean on five-year journey from zero to 150 employees". VentureBeat. Archived from the original on May 16, 2025.
+ Gesher, Ari (March 8, 2010). "Friction in Human-Computer Symbiosis: Kasparov on Chess". Palantir tech. Archived from the original on April 14, 2012. Retrieved January 30, 2012.
+ "Fauci's Covert CIA Visit to Conceal COVID Truth and the Rise of a Privatized Surveillance State". Sri Lanka Guardian. October 16, 2025.
+ Webb, Whitney Alyse (October 20, 2022). One Nation Under Blackmail – Vol. 2: The Sordid Union Between Intelligence and Organized Crime that Gave Rise to Jeffrey Epstein Vol. 2. TrineDay. ISBN 978-1-63424-357-5.
+ "Press release: Thomson Reuters and Palantir Technologies enter exclusive agreement to create next-generation analytics platform for financial clients". Thomson Reuters. April 12, 2010. Archived from the original on May 8, 2012. Retrieved May 27, 2013.
+ Kauffman, Tim (June 27, 2010). "The new high-tech weapons against fraud". Federal Times. Retrieved January 30, 2012.
+ Kiely, Kathy (June 18, 2010). "Obama administration to create 'do not pay' list to bar shady contractors". USA Today. Retrieved June 22, 2010.
+ Orszag, Peter (June 18, 2010). "Do Not Pay? Do Read This Post". Office of Management and Budget. Archived from the original on January 21, 2017. Retrieved January 30, 2012 – via National Archives.
+ Kuhn, Eric (June 1, 2010). "Companies capitalize on 'open government'". Political Ticker blog. CNN. Archived from the original on October 28, 2020. Retrieved September 28, 2013.
+ "Using Palantir with Open Source Data: Finding and Preventing Fraud in Stimulus Spending". Palantir Technologies. May 4, 2010. Archived from the original on November 10, 2013. Retrieved May 27, 2013.
+ Vance, Ashlee; Stone, Brad (November 22, 2011). "Palantir, the War on Terror's Secret Weapon: A Silicon Valley startup that collates threats has quietly become indispensable to the U.S. intelligence community". Business Week Magazine. Archived from the original on February 18, 2013. Retrieved September 28, 2013.
+ Burns, Matt (January 11, 2015). "Leaked Palantir Doc Reveals Uses, Specific Functions And Key Clients". TechCrunch. Archived from the original on November 27, 2015. Retrieved February 21, 2015.
+ "Notice of Exempt Offering of Securities". The United States Securities and Exchange Commission. September 27, 2013. Archived from the original on October 28, 2020. Retrieved September 28, 2013.
+ Cutler, Kim-Mai (September 28, 2013). "Palantir Is Raising $197M In Growth Capital, SEC Filing Shows". TechCrunch. Archived from the original on October 28, 2020. Retrieved June 25, 2017.
+ Greenberg, Andy; Mac, Ryan (September 2, 2013). "How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut". Forbes. Archived from the original on June 4, 2015. Retrieved September 28, 2013.
+ Mac, Ryan (December 11, 2014). "Palantir Aiming To Raise $400 Million In New Round". Forbes. Archived from the original on January 2, 2015. Retrieved February 21, 2015.
+ Tirone, Jonathan (May 8, 2018). "Peter Thiel and Palantir Are at the Heart of the Iran Nuclear Deal". Bloomberg.com. Archived from the original on November 13, 2020. Retrieved May 8, 2018. Palantir, which Thiel and his partners built with CIA funding
+ "Palantir raising more money after tagged with 15 billion valuation", The Wall Street Journal, January 16, 2015, archived from the original on October 28, 2020, retrieved August 4, 2017.
+ Alden, William (June 23, 2015). "Palantir Valued At $20 Billion In New Funding Round". BuzzFeed. Archived from the original on June 24, 2015. Retrieved June 23, 2015.
+ Buhr, Sarah (December 23, 2015). "Palantir Has Raised $880 Million At A $20 Billion Valuation". TechCrunch. Archived from the original on January 29, 2017. Retrieved December 15, 2016.
+ Yeung, Ken (February 15, 2016). "Palantir acquires Kimono Labs, will shutter data collection service on February 29". VentureBeat. Archived from the original on May 2, 2023.
+ Condon, Stephanie. "Palantir acquires data visualization startup Silk". Archived from the original on October 28, 2020. Retrieved August 10, 2016.
+ Alden, William (April 22, 2017). "Palantir's Relationship With The Intelligence Community Has Been Worse Than You'd Think". BuzzFeed News. Retrieved August 13, 2025.
+ Hale, Chasity (July 15, 2025). "Protesters target Palo Alto's Palantir office". Palo Alto Online.
+ Kelion, Leo (March 28, 2020). "NHS turns to big tech to tackle Covid-19 hot spots". BBC News. Archived from the original on October 28, 2020. Retrieved March 29, 2020.
+ "The power of data in a pandemic - Technology in the NHS". healthtech.blog.gov.uk. March 28, 2020. Archived from the original on October 28, 2020. Retrieved March 29, 2020.
+ Steinberger, Michael (October 21, 2020). "Does Palantir See Too Much?". The New York Times. Archived from the original on October 28, 2020. Retrieved October 26, 2020.
+ Parker, Ashley; Stanley-Becker, Isaac; Linskey, Annie. "10 days of struggle: Inside Biden's early coronavirus vaccine effort". Washington Post. ISSN 0190-8286. Archived from the original on January 30, 2021. Retrieved January 31, 2021.
+ Levy, Ari (August 25, 2020). "Palantir CEO rips Silicon Valley in letter to investors". Retrieved July 2, 2025.
+ Levy, Ari (September 30, 2020). "Palantir closes below first trade after NYSE debut". Retrieved July 2, 2025.
+ Riley, Tonya (September 29, 2020). "The Technology 202: Activists slam Palantir for its work with ICE ahead of market debut". The Washington Post. ISSN 0190-8286. Retrieved July 30, 2025.
+ O'Donnell, Carl (December 7, 2020). "Palantir wins $44 million FDA contract, boosting shares 21%". Reuters. Archived from the original on December 21, 2020. Retrieved December 8, 2020.
+ Capoot, Ashley (February 13, 2023). "Shares of Palantir pop as it reports first profitable quarter". CNBC.
+ "Notice of Intent to Award a Sole Source contract to Palantir Technologies". November 6, 2024. Retrieved July 2, 2025.
+ Mathews, Jessica (August 6, 2025). "How Palantir—a company too small to make the Fortune 500—became one of the world's 25 most valuable companies". Fortune.
+ Motley Fool (August 3, 2025). "Why Is Wall Street Obsessed With AI (Artificial Intelligence) Leader Palantir?".
+ "Palantir Moves Headquarters to Miami From Denver". Bloomberg.com. February 17, 2026. Retrieved February 17, 2026.
+ Subin, Samantha (February 17, 2026). "Palantir moving its headquarters from Denver to Miami". CNBC. Retrieved February 18, 2026.
+ "CIA-backed Palantir Technologies raises $107.5 million". San Francisco: Reuters. December 11, 2013. Retrieved August 1, 2025. Palantir Technologies, the data-mining company that is partly backed by the Central Intelligence Agency, has raised another $107.5 million... brings the total raised by the company to over $800 million, values the company at more than $9 billion... Clients such as the National Security Agency, the Federal Bureau of Investigation and the CIA, along with corporate customers such as banks, use Palantir software to piece together information on terrorist plots, financial frauds and the like. The start-up has drawn attention because of its Prism software product, which has the same name as an NSA program that monitors emails and other communications of ordinary people on a mass scale. Palantir has said its product is separate.
+ "SEC FORM D". Securities and Exchange Commission. Archived from the original on July 25, 2015. Retrieved May 31, 2015.
+ Buhr, Sarah (December 23, 2015). "Palantir Has Raised $880 Million At A $20 Billion Valuation". TechCrunch. Archived from the original on January 29, 2017. Retrieved December 15, 2016.
+ Waldman, Peter; Chapman, Lizette; Robertson, Jordan. "Palantir Knows Everything About You". Bloomberg.com. Bloomberg. Archived from the original on April 23, 2018. Retrieved April 23, 2018.
+ Copeland, Rob (October 18, 2018). "Secretive Data Company Palantir Weighs Giant Public Offering". The Wall Street Journal. ISSN 0099-9660. Archived from the original on October 18, 2018. Retrieved October 19, 2018.
+ Korosec, Kirsten; Whittaker, Zack; Mascarenhas, Natasha (July 7, 2020). "Secretive data startup Palantir has confidentially filed for an IPO". TechCrunch. Archived from the original on July 7, 2020.
+ Kindig, Beth (September 29, 2020). "Palantir IPO: Deep-Dive Analysis". Forbes. Archived from the original on December 15, 2020. Retrieved November 9, 2020.
+ Novet, Jordan (September 9, 2024). "Palantir soars 14% on software vendor's inclusion in S&P 500". CNBC. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir IR". investors.palantir.com. Archived from the original on November 18, 2024. Retrieved November 25, 2024.
+ "Palantir might be the most over-valued firm of all time". The Economist. 2025. ISSN 0013-0613.
+ Maranz, Felice (November 3, 2025). "Palantir's Unwavering Momentum Sends Valuation Into Stratosphere". Bloomberg. Retrieved November 3, 2025.
+ "Palantir has pumped over $400 million into SPACs and boosted its revenues at the same time". Forbes. November 24, 2021. Archived from the original on November 24, 2021.
+ Maçães, Bruno (July 10, 2023). "How Palantir Is Shaping the Future of Warfare". TIME. Archived from the original on April 28, 2024. Retrieved October 7, 2024.
+ Neslen, Arthur (October 20, 2021). "FEATURE-Pushback against AI policing in Europe heats up over racism fears". Reuters. Reuters. Archived from the original on November 1, 2021. Retrieved November 1, 2021.
+ "Campaign launches to try to force Palantir out of Britain's NHS". CNBC. June 4, 2021. Retrieved June 16, 2021.
+ "Palantir for UK Government". Palantir. Archived from the original on November 13, 2022. Retrieved November 13, 2022.
+ Osborne, Rhiannon Mihranian (August 1, 2024). "NHS England must cancel its contract with Palantir". BMJ. 386 q1712. doi:10.1136/bmj.q1712. ISSN 1756-1833. PMID 39089808. Archived from the original on December 1, 2024. Retrieved January 28, 2025.
+ "Peter Thiel's Palantir Had Secret Plan to Crack UK's NHS: 'Buying Our Way In'". Bloomberg.com. September 30, 2022. Archived from the original on November 24, 2023. Retrieved January 28, 2025.
+ Iacobucci, Gareth (November 27, 2023). "Covid inquiry: The week that science became both bamboozling and a millstone". BMJ. 383: 2788. doi:10.1136/bmj.p2788. ISSN 1756-1833. PMID 38011918. S2CID 265464679. Archived from the original on November 27, 2023. Retrieved December 2, 2023.
+ Barton, Alex (April 3, 2024). "Pro-Palestinian medical activists block entrance to NHS England HQ". The Telegraph. ISSN 0307-1235. Archived from the original on May 10, 2024. Retrieved January 28, 2025.
+ Sidel, Robin (February 10, 2015). "First Data Reports First Quarterly Profit in More Than Seven Years". Wall Street Journal. Archived from the original on October 28, 2020. Retrieved February 25, 2015.
+ Gault, Matthew (April 26, 2023). "Palantir Demos AI to Fight Wars But Says It Will Be Totally Ethical Don't Worry About It". Vince. Archived from the original on May 3, 2023. Retrieved May 3, 2023.
+ Tarantola, Andrew (April 26, 2023). "Palantir shows off an AI that can go to war". Engadget. Archived from the original on May 3, 2023. Retrieved May 3, 2023.
+ Capoot, Ashley (May 8, 2023). "Palantir soars on earnings beat and prediction of full-year profitability". CNBC. Archived from the original on May 9, 2023. Retrieved May 9, 2023.
+ "Protesters blockade office of tech giant with NHS contract over ties to Israel". independent. December 21, 2023. Archived from the original on December 29, 2023. Retrieved December 29, 2023.
+ "Jacobs and Palantir Expand Partnership | Jacobs". Jacobs.com. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir IR". investors.palantir.com. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir Artificial Intelligence Platform". Palantir. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir AIP Bootcamp". Palantir. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "TITAN". Palantir. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Army Awards TITAN Ground Station Contract to Palantir Inc. | AFCEA International". Afcea.org. March 6, 2024. Retrieved October 7, 2024.
+ "Palantir's MetaConstellation software harnesses the power of satellite technology". Palantir. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir Skykit brings intelligence and operations to the edge". Palantir. Retrieved October 7, 2024.
+ "L'Ukraine, laboratoire des guerres du futur". L'Express (in French). February 16, 2023. Retrieved October 7, 2024.
+ "Ukrainian Armed Force use Skykit Palantir". Militarnyi. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "Palantir Stops Mocking Salespeople and Starts Hiring Them". Bloomberg.com. January 7, 2019. Archived from the original on October 9, 2020. Retrieved February 28, 2019.
+ Waldman, Peter; Chapman, Lizette; Robertson, Jordan (April 19, 2018). "Peter Thiel's data-mining company is using War on Terror tools to track American citizens. The scary thing? Palantir is desperate for new customers". Bloomberg. Archived from the original on October 28, 2020. Retrieved April 24, 2018.
+ Mak, Aaron (April 19, 2018). "Report: Palantir Helped JPMorgan Spy on Employees". Bloomberg. Archived from the original on October 28, 2020. Retrieved April 24, 2018.
+ "Data mining firm Palantir mocked idea of a sales staff; now it's hiring". enewspaper.latimes.com. Archived from the original on August 30, 2024. Retrieved April 14, 2024.
+ Cox, Joseph (January 15, 2026). "'ELITE': The Palantir App ICE Uses to Find Neighborhoods to Raid". 404 Media.
+ Richman, Josh (January 15, 2026). "Report: ICE Using Palantir Tool That Feeds On Medicaid Data". Electronic Frontier Foundation.
+ "Palantir Technologies Inc.: Shareholders Board Members Managers and Company Profile | US69608A1088". MarketScreener.com. Archived from the original on March 5, 2024. Retrieved March 7, 2024.
+ "Q2 2024 | Letter to Shareholders". Palantir. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ Chiang, Oliver (April 30, 2010). "PayPal-Based Technology Helped Bust India's And The Dalai Lama's Cyberspies". Forbes. Archived from the original on August 14, 2017. Retrieved September 7, 2017.
+ "A Human Driven Data-centric Approach to Accountability: Analyzing Data to Prevent Fraud, Waste and Abuse in Stimulus Spending: Gov 2.0 Expo 2010 - Co-produced by UBM TechWeb & O'Reilly Conferences, May 25 - 27, 2010, Washington, DC". Gov2expo.com. Archived from the original on October 28, 2020. Retrieved January 30, 2012.
+ "Merck KGaA, Palantir's new joint venture looks to tear down cancer research data silos". MobiHealthNews. November 20, 2018. Archived from the original on October 28, 2020. Retrieved February 27, 2019.
+ "Airbus believes its AI can eliminate flight delays". VentureBeat. October 23, 2018. Archived from the original on October 28, 2020. Retrieved February 27, 2019.
+ Palantir. "Palantir Foundry Enables Scuderia Ferrari Through Data". PRNewsWire.com (Press release). Archived from the original on October 28, 2020. Retrieved February 27, 2019.
+ "CNN.com Video". CNN. Archived from the original on August 16, 2000. Retrieved June 26, 2010.
+ Markoff, John (March 29, 2009). "Vast Spy System Loots Computers in 103 Countries". The New York Times. Archived from the original on April 1, 2009. Retrieved February 25, 2017.
+ Knox, Karin (January 24, 2014). "How Many Years A Slave?". Archived from the original on March 4, 2016.
+ "With $7M contract, NIH taps big data analysis platform Palantir to streamline health research". MobiHealthNews. September 24, 2018. Archived from the original on October 28, 2020. Retrieved February 28, 2019.
+ "Can Data-Crunching Palantir Find Missing Children and Catch Traffickers?". Fortune. Archived from the original on October 28, 2020. Retrieved February 28, 2019.
+ "Palantir and WFP partner to help transform global humanitarian delivery | World Food Programme". WFP.org. February 5, 2019. Archived from the original on October 28, 2020. Retrieved February 28, 2019.
+ Winkler, Peter Loftus and Rolfe (October 22, 2020). "WSJ News Exclusive | Palantir to Help U.S. Track Covid-19 Vaccines". The Wall Street Journal. ISSN 0099-9660. Archived from the original on October 28, 2020. Retrieved October 23, 2020.
+ Scarborough, Rowan (July 16, 2012). "Military has to fight to purchase lauded IED buster". The Washington Times. Archived from the original on July 19, 2012. Retrieved September 29, 2013.
+ Blagdon, Jeff (June 29, 2013). "Palantir is helping California police develop controversial license plate database". The Verge. Archived from the original on October 28, 2020. Retrieved September 7, 2017.
+ Winston, Ali (February 27, 2018). "PALANTIR HAS SECRETLY BEEN USING NEW ORLEANS TO TEST ITS PREDICTIVE POLICING TECHNOLOGY". The Verge. Archived from the original on February 28, 2018. Retrieved February 28, 2018.
+ Woodman, Spencer (March 2, 2017). "Palantir Provides the Engine for Donald Trump's Deportation Machine". The Intercept. Archived from the original on October 28, 2020. Retrieved November 6, 2018.
+ "Palantir took over from Google on Project Maven". Business Insider. December 2019. Archived from the original on October 28, 2020. Retrieved January 17, 2020.
+ "Palantir Stock At $63: The Good, Bad And Ugly" Archived December 26, 2024, at the Wayback Machine Forbes.com. Accessed December 17, 2024.
+ "How Palantir, the secretive tech company, is rising in the Trump era" NPR. Accessed June 21, 2025.
+ Lewis, Paul; Conn, David; Pegg, David (April 12, 2020). "UK government using confidential patient data in coronavirus response". The Guardian. Retrieved January 22, 2024.
+ Times, Byline; Hencke, David (April 22, 2020). "Palantir Coronavirus Contract Did Not Go to Competitive Tender". Byline Times. Archived from the original on October 5, 2020. Retrieved April 14, 2023.
+ "Commentary: We've won our lawsuit over UK govt's £23m NHS data deal with Palantir". Business & Human Rights Resource Centre. Archived from the original on April 14, 2023. Retrieved April 14, 2023.
+ "UK trade department courted US firm Palantir over 'untapped' NHS data potential". Politico. June 29, 2021. Retrieved July 6, 2021.
+ "Palantir gears up to expand its reach into UK's NHS". Financial Times. June 9, 2022. Archived from the original on June 9, 2022. Retrieved June 9, 2022.
+ Clark, Lindsay. "Backbench Tory campaigner promises judicial review of data grab of English GP patients unless UK government changes tack". TheRegister.com. Retrieved April 14, 2023.
+ "Palantir gears up to expand its reach into UK's NHS". Financial Times. June 9, 2022. Retrieved March 31, 2023.
+ Glaze, Ben (February 7, 2023). "Campaigners warning over US tech giant's NHS links as deadline for deal looms". mirror. Archived from the original on April 4, 2023. Retrieved April 4, 2023.
+ says, Basil_Bekdash (April 13, 2023). "UK Consortium unsuccessful in its bid for £480M Federated Data Platform". Digital Health. Retrieved April 14, 2023.
+ Mason; Whitehall, Rowena (April 27, 2023). "Ex-minister predicts 'battle royale' over US firm's bid for NHS data contract". The Guardian. ISSN 0261-3077. Retrieved April 28, 2023.
+ Mitib, Ali; Amin, Lucas. "NHS tells hospitals to share medical records with US spy-tech company". The Times. ISSN 0140-0460. Archived from the original on March 31, 2023. Retrieved March 31, 2023.
+ Clark, Lindsay. "NHS threatened with legal action over patient data platform". TheRegister.com. Archived from the original on March 30, 2023. Retrieved March 31, 2023.
+ "NHS's AI chief joins CIA-linked US tech firm". Health Service Journal. April 22, 2022. Retrieved May 24, 2022.
+ Brown, Larisa (September 22, 2024). "How tech giant Palantir is secretly changing the face of warfare". The Times. Retrieved April 17, 2025.
+ "Peter Thiel's Palantir Had Secret Plan to Crack UK's NHS: 'Buying Our Way In'". Bloomberg.com. September 30, 2022. Archived from the original on January 24, 2023. Retrieved April 4, 2023.
+ Trickett, Jon (December 2, 2023). "NHS data given to CIA-backed Palantir". Morning Star. Archived from the original on December 2, 2023. Retrieved December 2, 2023.
+ "UK defence data contract coverage". Financial Times. Retrieved February 12, 2026.
+ "Enterprise Agreement for provision of Palantir software tool-set". Contracts Finder. Retrieved February 12, 2026.
+ "Contract award notice: Data analytics support services". Find a Tender Service. Retrieved February 12, 2026.
+ Gjerding, Sebastian; Andersen, Lasse Skou (April 25, 2025). "Kontroversiel amerikansk virksomhed har adgang til fortrolige oplysninger hos dansk politi". Information (in Danish). Retrieved August 13, 2025.
+ Seidelin, Matias (May 21, 2025). "OLFI - Kontroversielt amerikansk firma på vej ind i dansk våbenindustri" (in Danish).
+ Bech-Nielsen, Peter Christian (May 5, 2025). "Hummelgaard trods dybt kontroversielt PET-forslag om masseovervågning: Vil ikke tale om Palantir | Radar". radar.dk (in Danish). Retrieved August 13, 2025.
+ "Norwegian Customs implement new methods to catch smugglers". Nettavisen. January 24, 2018. Archived from the original on December 5, 2021. Retrieved December 5, 2021.
+ "Faeser stoppt Anti-Gangster-Software - Reul glaubt an Wahlkampf-Manöver". Fokus.
+ Volk, Iris. "Baden-Württemberg: Polizei will umstrittene Palantir-Software einsetzen: BW-Grüne halten dagegen". Tagesschau (in German). Retrieved July 30, 2025.
+ Pugnet, Aurélie; Henning, Maximilian; Strohmaier, Brenda (August 8, 2025). "Palantir is well on its way to conquering Europe". Retrieved September 3, 2025.
+ Gastineau, Pierre (April 17, 2025). "France • US' Palantir to stay part of French intelligence until end of Macron presidency? - 17/04/2025". Intelligence Online.
+ Oshin, Olafmihan (June 6, 2022). "Palantir CEO travels to Ukraine for Zelensky meeting". The Hill. Archived from the original on October 7, 2024. Retrieved October 7, 2024.
+ "How Tech Giants Turned Ukraine Into an AI War Lab". TIME. February 8, 2024. Archived from the original on February 14, 2024. Retrieved February 15, 2024.
+ Ignatius, David (December 19, 2022). "How the algorithm tipped the balance in Ukraine". The Washington Post. Archived from the original on December 19, 2022.
+ Grylls, George (December 24, 2022). "Ukraine is outflanking Russia with ammunition from Big Tech". The Times.
+ Wright, Ben (April 22, 2023). "The 'all-seeing' tech giant mapping Putin's war crimes". The Daily Telegraph. Archived from the original on April 24, 2023.
+ Hugo, Hayte (August 22, 2025). "Minister bevestigt dat Nederland al jarenlang software van Palantir gebruikt". Tweakers (in Dutch).
+ Newman, Marissa (January 12, 2024). "Thiel's Palantir, Israel Agree Strategic Partnership for Battle Tech". Bloomberg.com. Retrieved January 16, 2024.
+ Koller, Alex (March 13, 2024). "Palantir CEO says his outspoken pro-Israel views have caused employees to leave company". CNBC. Retrieved October 7, 2024.
+ Officer, Press (December 12, 2024). "Statement from Eoin Hayes TD on his previous employment with Palantir - Social Democrats". SocialDemocrats.ie. Retrieved July 8, 2025.[dead link]
+ "'I let myself and the party down': Suspended Soc Dems TD Eoin Hayes says he will take his seat in Dáil as Independent". Irish Independent. December 10, 2024. Retrieved June 15, 2025.
+ "Eoin Hayes to sit as independent after suspension by Social Democrats". RTE. December 11, 2024. Archived from the original on January 16, 2025. Retrieved February 6, 2025.
+ "'I let myself and the party down': Suspended Soc Dems TD Eoin Hayes says he will take his seat in Dáil as Independent". Irish Independent. December 10, 2024. Archived from the original on December 13, 2024. Retrieved February 6, 2025.
+ Metzger, Hannah (May 29, 2025). "Protesters Call Out Jason Crow Over Campaign Donors With Ties to ICE, Israel". Westword.
+ Fichter A (Dec 2025)"How tenaciously Palantir courted Switzerland republik.ch. Accessed 23 Feb 2026.
+ Ruehl M (Feb 2026)"Palantir sues magazine that revealed Switzerland rejected its approaches" ft.com Accessed 23 Feb 2026.
+ Bennett, Nicole M. (August 27, 2025). "When the government can see everything: How one company – Palantir – is mapping the nation's data". The Conversation. Retrieved September 16, 2025.
+ "Palantir's tools pose an invisible danger we are just beginning to comprehend". The Guardian. August 24, 2025. ISSN 0261-3077. Retrieved September 16, 2025.
+ "Tracking Cyberspies Through the Web Wilderness (Published 2009)". May 12, 2009. Retrieved September 16, 2025.
+ Kinder, Tabby; Hammond, George (December 22, 2024). "Palantir and Anduril join forces with tech groups to bid for Pentagon contracts". www.ft.com.
+ Sharwood, Simon (December 9, 2024). "Palantir and Anduril form partnership, as Sauron funded".
+ Root, Al (May 13, 2025). "Archer Aviation Stock Soars. It's Working With Palantir". barrons.
+ Jeans, David (December 11, 2024). "Trump Wants Manufacturing Jobs Back. Silicon Valley Is Lining Up To Help". Forbes.
+ Tabby, Kinder; Murchu, Cynthia (February 7, 2025). "Palantir's 'revolving door' with government spurs huge growth". www.ft.com.
+ "TTP - Inside Palantir's Expanding Influence Operation". www.techtransparencyproject.org. Retrieved October 18, 2025.
+ "Our Mission | NAIA". newindustrials.org. Retrieved October 18, 2025.
+ Silverman, Jacob (September 12, 2025). "Elon Musk's AI Grift".
+ Rosenberg, Scott (November 8, 2024). "Anthropic, Palantir, Amazon team up on defense AI". Axios.
+ Jain, Aishwarya (September 24, 2025). "Boeing's defense and space unit partners with Palantir for AI adoption".
+ Eckstein, Megan (November 30, 2022). "Palantir, Lockheed Martin team up to modernize naval combat systems". Defense News.
+ Subin, Samantha (March 7, 2025). "Palantir delivers first two AI-enabled systems to U.S. Army". CNBC.
+ McMiler, Arthur (March 27, 2025). "General Dynamics Units Form Partnership on Combat Software". www.executivebiz.com. Archived from the original on July 19, 2025.
+ Schumpeter (June 26, 2025). "Who needs Accenture in the age of AI?". The Economist.
+ Kelly, Makena (August 1, 2025). "Palantir Is Extending Its Reach Even Further Into Government". Wired.
+ Kline, Alan (December 6, 2024). "Booz Allen teams with tech giant Palantir to drive innovation for U.S. military". bizjournals.
+ Collins, Elodie (July 22, 2025). "Deloitte, Palantir Jointly Develop EOS". ExecutiveBiz. Archived from the original on July 27, 2025.
+ Jamison, Miles (July 1, 2025). "Palantir, Accenture Seek to Boost US Gov't Ops With AI". www.executivebiz.com. Archived from the original on July 4, 2025.
+ "IBM and Palantir Partner to Help Businesses Easily Deploy Powerful and Open AI Applications; Unlock Valuable Data Across Hybrid Cloud Environments". IBM Newsroom. Archived from the original on March 24, 2021. Retrieved April 5, 2021.
+ "Launching ERP Suite to deliver cost savings for AWS customers". March 5, 2021. Archived from the original on April 19, 2021. Retrieved April 5, 2021.
+ Haselton, Todd (August 8, 2024). "Palantir jumps 11% on Microsoft partnership to sell AI to U.S. defense, intel agencies". CNBC. Archived from the original on August 9, 2024. Retrieved August 10, 2024.
+ "Microsoft, Palantir Partner on AI for U.S. Gov't Agencies". Redmond Channel Partner. Retrieved March 17, 2025.
+ Ki, Hyun (February 28, 2025). "HD Hyundai Partners with Palantir, Siemens for Shipyard Automation". KoreaTechToday - Korea's Leading Tech and Startup Media Platform.
+ Park, Soo-nam (September 23, 2025). "[Park Soo-nam's CEO Analysis 8] Behind the HD Hyundai-Palantir 'Data Alliance': Chung Kisun Bets the Future of Korea's Defense Industry on the U.S. Security System".
+ Ga-eul (October 14, 2025). "Inside KT and Palantir's Next Move: Building the Future of AI-Powered Enterprises in Korea". KoreaTechToday - Korea's Leading Tech and Startup Media Platform.
+ Ye-eun, Jie (October 14, 2025). "KT, Palantir chiefs discuss AI expansion in Seoul". The Korea Herald.
+ Chang, Ollie (March 20, 2025). "Samsung taps CIA-born Palantir AI to rescue faltering chip yields". DIGITIMES.
+ Lin, Ines; Hsiao, Jingyue (May 23, 2025). "SAP partners with Perplexity and Palantir to accelerate business AI ecosystem". DIGITIMES.
+ Jamison, Miles (May 21, 2025). "SAP NS2, Palantir Bring AI-Driven Systems to Public Sector". www.executivebiz.com. Archived from the original on September 26, 2025.
+ Jirát, Von Jan (April 21, 2021). "Palantir Technologies: Fauler Datenzauber am Zürichsee". www.woz.ch (in German).
+ "Big data platform supports publishing house with data processing". pcg.io. Retrieved October 18, 2025.
+ Glover, George (March 14, 2024). "Palantir CEO Alex Karp says he loves 'burning the short-sellers' who bet against 'great companies' to fund their cocaine habits". Business Insider.
+ magazin, Jonas Rest, manager (February 22, 2025). "(m+) Peter Thiel: 50 Millionen Dollar für den Risikokapitalfonds von Mathias Döpfners Sohn". www.manager-magazin.de (in German).
+ Burger, Ludwig; Weiss, Patricia (November 20, 2018). "Palantir to offer cancer analytics under JV deal with Germany's Merck".
+ Nellis, Stephen (December 7, 2021). "German chip chemical supplier to spend $1 bln in U.S., pairs with Palantir on supply chain data".
+ Dromberg, Jonas (April 2, 2025). "Why Sweden has the necessary tools to lead new Nordic defense drive". ArcticToday. Retrieved July 31, 2025.
+ Amelin, Anatoliy (July 7, 2025). "Bilderberg Club 2025 and evolution of Ukrainian topic". global.espreso.tv. Retrieved July 31, 2025.
+ The New Arab Staff & Agencies (November 4, 2025). "US AI firm Palantir announces joint venture in Dubai".
+ Hemmadi, Murad (September 18, 2025). "The Defence Department had a $14M contract with Palantir for data management software". Palantir had no access to the information processed by its software, the department claimed in response to questions from The Logic. Gotham was only used on data protected on "closed, classified" National Defence networks "within secure facilities," department spokesperson Andrée-Anne Poulin said
+ "Frequently asked questions (FAQs)". NHS Federated Data Platform Frequently asked questions (FAQs). Retrieved October 13, 2025. Palantir has no intellectual property rights (IPRs) in NHS data as part of this contract. where NHS England commissions material containing IPRs, it owns those IPRs – this includes the data ontology commissioned by NHS England to support NHS FDP use known as the Canonical Data Model
+ Loll, Anna (June 5, 2025). "Palantir in Deutschland - Datenschützer warnen vor Polizei-Software aus den USA". Deutschlandfunk (in German).
+ Burns, Matt (January 12, 2015). "Leaked Palantir Doc Reveals Uses, Specific Functions And Key Clients". TechCrunch.
+ Burgess, Christopher (September 7, 2021). "Palantir Misconfiguration Allowed Unauthorized FBI Access". Security Boulevard.
+ Van Boris, Bob. "Palantir Says Top AI Engineers Stole Secrets for 'Copycat' Firm".
+ Albert, Victoria (December 11, 2025). "Palantir Sues CEO of Rival AI Firm, Alleges Widespread Effort to Poach Employees". The Wall Street Journal. Retrieved December 17, 2025.
+ Aoyama, Naoatsu (April 20, 2022). "INTERVIEW/ Meet Palantir, the big data firm analyzing the Ukraine conflict | The Asahi Shimbun: Breaking News, Japan News and Analysis". The Asahi Shimbun. Retrieved October 13, 2025.
+ Taylor, Linnet; Floridi, Luciano; Sloot, Bart van der (December 28, 2016). Group Privacy: New Challenges of Data Technologies. Springer. pp. 61, 62. ISBN 978-3-319-46608-8.
+ Lee, Newton (April 7, 2015). Counterterrorism and Cybersecurity: Total Information Awareness. Springer. p. 157. ISBN 978-3-319-17244-6.
+ Karl Montevirgen, Palantir Technologies, Inc. at the Encyclopædia Britannica
+ Harris, Shane (January 31, 2012). "Killer App". Washingtonian. Archived from the original on October 28, 2020. Retrieved March 14, 2012.
+ Wray, James; Stabe, Ulf. "Data intelligence firms proposed a systematic attack against WikiLeaks". Thetechherald.com. Archived from the original on November 26, 2018. Retrieved January 30, 2012.
+ "COMPLAINT FOR VIOLATIONS OF EXECUTIVE ORDER 11246" (PDF). United States Department of Justice. Archived from the original (PDF) on October 1, 2016. Retrieved September 27, 2016.
+ Kosoff, Maya (September 27, 2016). "U.S. GOVERNMENT SUES PETER THIEL'S SECRETIVE BIG-DATA START-UP FOR DISCRIMINATION". Vanity Fair. Archived from the original on November 4, 2016. Retrieved October 31, 2016.
+ Kravets, David (April 26, 2017). "Palantir settles US charges that it discriminated against Asian engineers". Ars Technica. Archived from the original on October 28, 2020. Retrieved April 26, 2017.
+ Pegg, David; Cadwalladr, Carole (March 27, 2018). "US data firm admits employee approached Cambridge Analytica: Palantir confirm employee 'engaged in a personal capacity' with the company". The Guardian. Archived from the original on October 28, 2020. Retrieved April 23, 2018.
+ Confessore, Nicholas; Rosenberg, Matthew (March 27, 2018). "Spy Contractor's Idea Helped Cambridge Analytica Harvest Facebook Data". The New York Times. Archived from the original on October 28, 2020. Retrieved April 24, 2018.
+ Pegg, David; Cadwalladr, Carole (March 28, 2018). "US data firm admits employee approached Cambridge Analytica". The Guardian.
+ The Philosopher In The Valley Alex Karp, Palantir, and the Rise of the Surveillance State by Michael Steinberger Avid Reader Press (2025)
+ Confessore, Nicholas; Rosenberg, Matthew (March 28, 2018). "Spy Contractor's Idea Helped Cambridge Analytica Harvest Facebook Data (Published 2018)".
+ "Campaign launches to try to force Palantir out of Britain's NHS". CNBC. June 4, 2021. Retrieved June 16, 2021.
+ "DealBook Briefing: Investors May Be Overlooking Their Own Discrimination". The New York Times. December 11, 2018. Archived from the original on August 4, 2019. Retrieved August 4, 2019.
+ The Philosopher In The Valley Alex Karp, Palantir, and the Rise of the Surveillance State by Michael Steinberger Avid Reader Press (2025) pps. 155-164
+ "Palantir Contract Dispute Exposes NYPD's Lack of Transparency". Brennan Center for Justice. Archived from the original on October 28, 2020. Retrieved August 4, 2019.
+ "National Immigration Project of the National Lawyers Guild". NationalImmigrationProject.org. Archived from the original on October 28, 2020. Retrieved August 4, 2019.
+ "Immigrant Defense Project - Fighting for Justice & Human Rights for ALL". Archived from the original on October 28, 2020. Retrieved August 4, 2019.
+ "Mijente". Mijente. Archived from the original on August 4, 2019. Retrieved August 4, 2019.
+ "Palantir Played Key Role in Arresting Families for Deportation, Document Shows". Mijente. May 2, 2019. Archived from the original on October 28, 2020. Retrieved August 4, 2019.
+ "Failing To Do Right:The Urgent Need for Palantir to Respect Human Rights" (PDF). Amnesty International. Archived (PDF) from the original on October 28, 2020. Retrieved September 28, 2020.
+ "Amnesty International slams Palantir's human rights record". CBS News. September 29, 2020. Archived from the original on October 28, 2020. Retrieved September 29, 2020.
+ The Philosopher In The Valley Alex Karp, Palantir, and the Rise of the Surveillance State by Michael Steinberger Avid Reader Press (2025) p. 282
+ Cox ·, Joseph (April 17, 2025). "Leaked: Palantir's Plan to Help ICE Deport People". 404 Media. Retrieved April 17, 2025.
+ Haskins, Caroline (April 18, 2025). "ICE is Paying Palantir $30 Million to Build 'ImmigrationOS' Surveillance Program". Wired.
+ Dou, Eva (December 3, 2025). "How Palantir shifted course to play key role in ICE deportations". Washington Post.
+ Douthat, Ross; Boyd, Sophia (October 30, 2025). "What Palantir Sees". New York Times.
+ USA Government (2026). "Contract Summary, Delivery Order (DO) PIID 70CTD022FR0000170". USAspending.gov. Retrieved January 26, 2026.
+ Ty Roush (January 26, 2026). "These Companies—Palantir, AT&T, Deloitte—Have The Biggest ICE Contracts As DHS Funding Under Fire". forbes.com. Retrieved January 26, 2026.
+ Muhlberg, Byron (May 13, 2020). "Privacy Advocates Calls for Transparency Over Use of Patient Data". CPO Magazine. Archived from the original on October 24, 2020. Retrieved November 30, 2020.
+ Albergotti, Reed (July 1, 2020). "Lawmakers call for more transparency in health agency's pandemic data collection practices". Washington Post. Archived from the original on December 24, 2020. Retrieved November 30, 2020.
+ "Trump Adviser Stephen Miller Holds Six-Figure Investment in Tech Firm Profiting from Deportations". Democracy Now!. Retrieved September 16, 2025.
+ "Damning Report Exposes Stephen Miller's Shady Ties to Palantir". The New Republic. ISSN 0028-6583. Retrieved June 24, 2025.
+ "Stephen Miller's Financial Stake in ICE Contractor Palantir". POGO. Retrieved September 16, 2025.
+ "Stephen Miller's Financial Stake in ICE Contractor Palantir". POGO. Retrieved June 24, 2025.
+ Hornberger, Peyton. "We're creating AI that could surveil US citizens. And the government is in on it. | Opinion". USA TODAY. Retrieved September 16, 2025.
+ Osborne, James; Chronicle, Houston (August 12, 2025). "Ted Cruz's Campaign to Keep Government Out of AI". Industry Insider Texas. Retrieved September 16, 2025.
+ DOGE access to US intelligence secrets poses a national security threat, Democrats say | AP News
+ Trump, DOGE Ignore Privacy Laws to Gather Americans' Personal Info
+ The Verge: House Democrats: DOGE is building a 'master database' of Americans' sensitive information – EPIC – Electronic Privacy Information Center
+ Tech Newsday DOGE Accused of Creating Massive Surveillance System Under Musk-Led Trump Administration
+ Opinion | Elon Musk's Legacy: DOGE's Construction of a Surveillance State - The New York Times)
+ Real mission of DOGE seen in new insights on federal data and privacy
+ Izzo, Jack (June 13, 2025). "Is Palantir creating a national database of US citizens?". Snopes.
+ Nazzaro, Miranda (December 4, 2025). "Palantir quietly lands in Education Department through foreign funding portal". FedScoop.
+ Izzo, Jack (June 13, 2025). "Is Palantir creating a national database of US citizens?". Snopes.
+ Izzo, Jack (June 13, 2025). "Is Palantir creating a national database of US citizens?". Snopes.
+ "Palantir, bedrijf zonder scrupules: "Soms doden we onze vijanden"". De Standaard (in Flemish). August 29, 2025.
+ "Palantir, de AI-lieveling van beleggers en de datareus achter Trumps deportaties". De Tijd (in Dutch). August 9, 2025. Retrieved September 3, 2025.
+ Goebel, Jacqueline (August 26, 2020). "WirtschaftsWoche". www.wiwo.de.
+ Hagen, Lisa Maria; Jeric, Lorenz (August 19, 2025). "Polizei-Software: Können wir Palantir ersetzen". Polizei-Software: Können wir Palantir ersetzen. Germany: Funk (ZDF).
+ Lindner, Roland (September 22, 2020). "Neu an der Börse: Die Exzentriker von Palantir". FAZ.NET (in German).
+ "Palantir in Hessen - vereint Daten von Facebook & Co mit polizeilichen Datenbanken??". Police-IT (in German). November 2, 2018.
+ "Palantir in Deutschland - Datenschützer warnen vor Polizei-Software aus den USA". Deutschlandfunk (in German). June 5, 2025.
+ "Herrmann: VeRA ist sinnvoll und notwendig – Bayerisches Landesportal". April 21, 2025.
+ Schuppisser, Raffael (August 24, 2025). "Ich bin dynamit war Friedrich Nietzsche der wegbereiter fuer Trump".
+ Schütt, Julian (August 10, 2025). "Dieser Philosoph hilft Trump, den perfekten Überwachungsstaat zu schaffen". watson.ch (in German).
+ Reuter, Markus (March 24, 2025). "Palantir: Wer jetzt bei Peter Thiel Software kauft, hat wirklich nichts verstanden". netzpolitik.org (in German).
+ Fischer, Stefan (May 28, 2025). "Podcast "Die Peter Thiel Story" im Deutschlandfunk: Die dunkle Aufklärung". Süddeutsche.de (in German).
+ Mangold, Ijoma (July 30, 2025). "Peter Thiel: Eine Milliarde Ideen". Die Zeit (in German).
+ Mayer, Alf (June 1, 2024). "Watching You – Die Welt von Palantir und Alex Karp".
+ Lohr, Matthias (August 7, 2025). "Kasseler Filmemacher über Palantir: Tech-Milliardäre "wollen die Weltherrschaft"". www.hna.de (in German).
+ Hanke, Franz-Josef (April 22, 2025). "Keine Geschäfte mit Palantir und Peter Thiel!". Humanistische Union (in German).
+ Kullick, Niklas (August 23, 2025). "Palantir steht für einen digitalen Rechtsruck". JACOBIN Magazin (in German).
+ Stock, Oliver (June 13, 2025). "SPD lehnt Einsatz einer US-Software für Verbrechensbekämpfung ab". The European (in German).
+ Rinaldi, Gabriel (August 20, 2025). "Was die Deutschen über den Einsatz von Palantir-Software denken (Meldung)". SZ Dossier (in German).
+ "Nein zum Palantir-Deal – jetzt Appell unterzeichnen". aktion.campact.de (in German).
+ "Big Data bei der Polizei: (Nicht nur) Hessen sucht mit Palantir-Software (nicht nur) nach Gefährdern". Retrieved September 3, 2025.
+ Joswig, Gareth (July 23, 2025). "Klage gegen KI-Überwachungs-Software in Bayern". Die Tageszeitung: taz (in German).
+ "Board of Directors". investors.palantir.com. Retrieved January 26, 2026.
+ "Board of Directors". investors.palantir.com. Retrieved October 22, 2025.
+ "Alexander Caedmon Karp - PLTR | Palantir Technologies Inc. - Wall Street Journal". www.wsj.com. Archived from the original on October 22, 2025.
+ "Palantir Privacy and Security Statement". Palantir. Retrieved October 22, 2025.
+ Daniels, Eugene; Lizza, Ryan; Bade, Rachael (September 6, 2023). "Playbook: An Obama vet's message on Biden bedwetting". POLITICO. Archived from the original on November 19, 2023. Retrieved November 19, 2023.
+ "Interview with Fabrice Brégier, President of Palantir France". Palantir. Retrieved October 22, 2025.
+ "UNITED STATES/FRANCE • Palantir nabs Fabrice Bregier - 26/09/2018". Intelligence Online. September 26, 2018.
+ "Airbus Board of Directors Announces Top Management Succession Plan | Airbus". www.airbus.com. October 28, 2021. Retrieved October 22, 2025.
+ Ben-Hutta, Avi (November 19, 2019). "Sompo and Palantir cofound Palantir Japan". Coverager - Insurance news and insights.
+ Cordon, Miguel (November 20, 2019). "Tech in Asia - Connecting Asia's startup ecosystem". www.techinasia.com.
+ Church, Sophie (April 4, 2025). "Palantir Boss Louis Mosley: Keir Starmer 'Gets' AI, 'You Could See In His Eyes'". Politics Home.
+ "Science, Innovation and Technology Committee Oral evidence: Digital centre of government, HC 790". committees.parliament.uk. Retrieved October 25, 2025.
+ "8-K". www.sec.gov. Retrieved October 22, 2025.
+ Jimenez-Sanchez, Kassandra (April 9, 2025). "Acrisure appoints Pelsinger Chief Administrative Officer, Wassersug named CTO - Reinsurance News". ReinsuranceNe.ws.
+ "TTP - Inside Palantir's Expanding Influence Operation". www.techtransparencyproject.org. Retrieved October 22, 2025.
+ "Munich Security Conference 2025 List of Confirmed Participants (alphabetical)" (PDF). Munich Security Conference. Retrieved October 22, 2025.
+ "Laura Rudas bei Palantir: Im Dunstkreis der Geheimdienste". DER STANDARD (in Austrian German). September 11, 2015.
+ "Laura Rudas | Milken Institute". milkeninstitute.org. Retrieved October 22, 2025.
+ Champaigne-Kitetoa, Antoine (September 6, 2025). "Porte-Parole du Parti socialiste et " en même temps " Global Data Protection Officer chez Palantir | Reflets.info". reflets.info (in French).
+ Gastineau, Nicolas (September 19, 2025). "Julie Martinez, une " hobbit " socialiste made in Palantir". Revue21.fr (in French).
+ Fleury, Elisabeth (September 5, 2025). "IA : la porte-parole du PS travaille chez Palantir, l'ogre de la surveillance algorithmique choyé par Donald Trump - L'Humanité". humanite.fr (in French).
+ Blatchford, Andy (May 7, 2020). "Former Canadian envoy to Washington defends work pitching for Palantir". POLITICO. Retrieved October 22, 2025.
+ Yakabuski, Konrad (June 17, 2020). "Opinion: The murky business of Canada's former U.S. ambassador". The Globe and Mail.
+ Tunney, Catharine (September 16, 2020). "Freeland, Vance and several federal officials barred from official dealings with ex-ambassador".
+ Lavers, Michael K. (October 20, 2025). "Vance swears in gay State Department official".
+ "Palantir Blog | Kelly Explains His Decision to Join Palantir". Palantir. Retrieved October 22, 2025.
+ "Palantir Technologies Australia". www.defenceconnect.com.au. September 1, 2022. Archived from the original on August 2, 2023.
+ "Parliamentary Handbook". handbook.aph.gov.au. Archived from the original on October 22, 2025. Retrieved October 22, 2025.
+ "Matthew Turpin". Hoover Institution. Archived from the original on November 18, 2023. Retrieved November 18, 2023.
+ "China expert Matt Turpin on Beijing's strategic objectives - "Intelligence Matters" - CBS News". CBSNews.com. July 14, 2021. Archived from the original on November 18, 2023. Retrieved November 18, 2023.
+ "Palantir Technologies Inc. Insider Trading & Ownership Structure". Simply Wall St. Archived from the original on March 9, 2024. Retrieved March 9, 2024.
+ Sloan, Dylan; Carson, Biz (August 4, 2025). "Palantir's 525% Stock Surge Makes CTO Shyam Sankar the Firm's Fifth Billionaire".
+ Lin, Ed (September 10, 2024). "Palantir Chairman Peter Thiel to Sell Up to $1 Billion of Stock". barrons.
+ Wolverton, Troy (August 26, 2020). "Palantir will have a stock structure that ensures its 3 founders will remain in control 'for the foreseeable future'". Business Insider.
+ Leonard, Mike (July 24, 2021). "Peter Thiel, Palantir Co-Founders Slam 'Emperor for Life' Claims".
+ Chapman, Lizette (July 30, 2025). "Palantir Stock Structure Gives Founders the Power to Stay the Course".
+ Lin, Ed (May 6, 2025). "Palantir CEO Alex Karp Ends Plan to Sell Stock". barrons.
+ "SEC FORM 4". www.sec.gov. Retrieved October 28, 2025.
+ "2020 Annual Report" (PDF). Archived (PDF) from the original on December 17, 2024. Retrieved December 16, 2024.
+ "2021 Annual Report" (PDF).
+ "2022 Annual Report" (PDF). Archived (PDF) from the original on December 20, 2024. Retrieved December 16, 2024.
+ "2023 Annual Report" (PDF). Archived (PDF) from the original on December 20, 2024. Retrieved December 16, 2024.
+ Au-Yeung, Angel (August 15, 2025). "The Palantir Mafia Behind Silicon Valley's Hottest Startups". The Wall Street Journal. Retrieved August 17, 2025.
+ Stokes, Samantha; Hornstein, Julia; Russell, Melia. "Meet the new tech mafia in town: the Palantir Mafia". Business Insider. Retrieved August 14, 2025.
+ Lonsdale, Joe (January 31, 2022). "The American Optimist: An Interview with Joe Lonsdale". Profectus Magazine.
+ Rollet, Charles (March 5, 2025). "Defense tech startup Epirus raises $250M Series D to counter drone swarms". TechCrunch. Retrieved August 14, 2025.
+ Hellrand, Maris (June 6, 2025). "Helsing: the AI powerhouse reshaping Europe´s military future — Trade with Estonia". Retrieved August 14, 2025.
+ "Warum Spotify-Gründer Daniel Ek jetzt Milliarden in Helsing steckt". InvestmentWeek (in German). June 22, 2025. Retrieved August 14, 2025.
+ Mathewson, Fiona (December 19, 2022). "Beschaffung neu denken: Soldat baut ein Check24 für den Staat". Business Insider (in German).
+ SAUVETON, Pierre (April 23, 2025). "IA militaire: l'OTAN choisit Palantir, la France riposte". OpexNews (in French). Retrieved August 14, 2025.
+ "La start-up d'IA militaire Comand AI recrute chez le géant Anduril - 28/04/2025". La Lettre (in French). April 28, 2025. Retrieved August 14, 2025.
+ Matthews, Jason (May 1, 2025). "AI defence tech startup Arondite secures $12M to connect autonomous systems at scale — TFN". Tech Funding News. Retrieved August 14, 2025.
+ "Kela". Retrieved October 11, 2025.
+ ""To build Israeli companies like Anduril or Palantir, we must focus on comprehensive solutions, not niche ones"". ctech. February 17, 2025. Retrieved August 14, 2025.
+ "Kela: The Israeli startup rewriting how wars are fought". ctech. April 30, 2025.
+ Escárzaga, Antonio L. (September 18, 2025). "London-based Conduct secures €11.2 million to modernise enterprise IT systems with AI". EU-Startups.
+ Demarest, Colin (October 15, 2025). "Exclusive: Valinor wants to build defense-tech "picks and shovels"". Axios.
+ Irvine, Bethany (December 4, 2023). "Playbook PM: Senate border talks in limbo". POLITICO.
+ "Seeding the Future with Valinor". www.generalcatalyst.com.
+ Media, Resilience. "In conversation with General Catalyst". www.resiliencemedia.co.
+ Chapman, Lizette (October 24, 2025). "OpenAI Backs a New Venture Trying to Thwart AI Bio-Attacks".
+ 王智佳 (Wang Zhijia) (October 28, 2025). "中国版Palantir滴普科技成功登陆港股，首日开盘股价飙涨超111%，开启价值重估新征程". www.stcn.com.
+ "Four IPOs to be gray market tonight; short-term trading recommended". www.thestandard.com.hk. October 27, 2025.
+ "Deepexi Technology Co., Ltd". Deepexi Technology Co., Ltd. Retrieved November 3, 2025.
+ Parul, Prakriti (November 1, 2025). "Beijing Built its Palantir : Where is India's?". The Sunday Guardian.
+ "Inhance, Palantir Technologies 'Startup Fellowship' Finalist". 벤처스퀘어 (in Korean). May 26, 2025.
+ "Palantir for Builders | Startups". Palantir. Retrieved November 15, 2025.
+ Hojun, Jeong (July 9, 2025). "Advance, which develops artificial intelligence (AI) technology specializing in commerce, announced .. - MK". 매일경제.
+ "How Enhans Strengthens Its AI Automation Solution with Support from Palantir - Technology Org". June 10, 2025.
+ Wilkers, Ross (July 23, 2025). "Rune Technologies fetches $24M in Series A capital". Washington Technology.
+ Chowdhry, Amit (July 22, 2025). "Rune Technologies: $24 Million Series A Raised For Military Logistics Software". Pulse 2.0.
+Further reading
+Mark O'Connell, "The War App" (review of Alex Karp and Nicholas W. Zamiska, The Technological Republic: Hard Power, Soft Belief, and the Future of the West, Crown Currency, 2025), The New York Review of Books, vol. LXXII, no. 14 (September 25, 2025), pp. 18, 20, 22. O'Connell writes that Karp's attempt "to present himself as an unconventional thinker ... is ultimately in service of a consolidation of state power and business interests—what is normally referred to as the military-industrial complex, which since the end of World War II has been at the root of many long and brutal foreign conflicts, as well as the fortunes of many ruthless and clever opportunists."
+External links
+
+Wikimedia Commons has media related to Palantir Technologies.
+Official website Edit this at Wikidata
+Business data for Palantir Technologies Inc.: GoogleReutersSEC filingsYahoo!
+vte
+Companies of the Nasdaq-100 index
+Authority control databases Edit this at Wikidata	
+VIAFGND
+Categories: Companies in the Nasdaq-100Companies listed on the Nasdaq2003 establishments in CaliforniaAnalytics companiesBig data companiesBusiness software companiesCompanies formerly listed on the New York Stock ExchangeCompanies involved in the Gaza warAmerican companies established in 2003Data brokersCriminal investigationPeter ThielSoftware companies of the United StatesGovernment by algorithmSoftware companies established in 2003Direct stock offeringsLink analysisSecond Trump administration controversiesCompanies based in MiamiSoftware companies based in Florida
+This page was last edited on 15 March 2026, at 11:06 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
