@@ -1,6 +1,8 @@
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+from langchain_core.messages import HumanMessage, SystemMessage
 
 load_dotenv()
 
@@ -16,7 +18,7 @@ db = Chroma(
 )
 
 # Search for relevant documents
-query = "Instagram ban in russia"
+query = "explain relations between palantir and us"
 
 retriever = db.as_retriever(
     search_type="similarity_score_threshold",
@@ -53,3 +55,38 @@ for i, doc in enumerate(unique_docs, 1):
 # 6. "Who succeeded Ze'ev Drori as CEO in October 2008?"
 # 7. "What was the name of the autonomous spaceport drone ship that achieved the first successful sea landing?"
 # 8. "What was the original name of Microsoft before it became Microsoft?"
+
+
+
+
+# 1. Prepare the context from unique documents
+context = "\n\n".join([doc.page_content for doc in unique_docs])
+
+# 2. Construct the prompt
+combined_input = f"""Based on the following document context, please answer the user's question.
+
+Context:
+{context}
+
+Question: {query}
+
+Please provide a clear, helpful answer based ONLY on the provided context. If the answer is not in the context, say "I don't have enough information to answer that question based on the provided documents."
+"""
+
+# 3. Create a ChatGroq model
+# We'll use llama-3.3-70b-versatile as it's very capable and fast on Groq
+model = ChatGroq(model="llama-3.3-70b-versatile")
+
+# 4. Define the messages for the model
+messages = [
+    SystemMessage(content="You are a helpful assistant specialized in company research."),
+    HumanMessage(content=combined_input),
+]
+
+# 5. Invoke the model with the combined input
+print("\nThinking... (Sending to Groq Cloud)")
+result = model.invoke(messages)
+
+# 6. Display the generated response
+print("\n--- Generated AI Response ---")
+print(result.content)
