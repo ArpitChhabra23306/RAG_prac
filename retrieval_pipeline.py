@@ -1,5 +1,5 @@
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_cohere import CohereEmbeddings
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -8,8 +8,8 @@ load_dotenv()
 
 persistent_directory = "db/chroma_db"
 
-# Load embeddings and vector store
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+# 1. Use Cohere Cloud Embeddings (Must match ingestion_pipeline.py)
+embedding_model = CohereEmbeddings(model="embed-english-v3.0")
 
 db = Chroma(
     persist_directory=persistent_directory,
@@ -18,7 +18,7 @@ db = Chroma(
 )
 
 # Search for relevant documents
-query = "explain relations between palantir and us"
+query = "what is meta"
 
 retriever = db.as_retriever(
     search_type="similarity_score_threshold",
@@ -84,7 +84,7 @@ messages = [
 ]
 
 # 5. Invoke the model with the combined input
-print("\nThinking... (Sending to Groq Cloud)")
+print("\nThinking... (Both Search and AI are in the Cloud now!)")
 result = model.invoke(messages)
 
 # 6. Display the generated response

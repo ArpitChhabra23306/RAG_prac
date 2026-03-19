@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_cohere import CohereEmbeddings
 from langchain_groq import ChatGroq
 
 # Load environment variables
@@ -12,11 +12,11 @@ load_dotenv()
 persistent_directory = "db/chroma_db"
 
 # 1. Use the SAME embedding model used in ingestion_pipeline.py
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embedding_model = CohereEmbeddings(model="embed-english-v3.0")
 
 db = Chroma(
     persist_directory=persistent_directory, 
-    embedding_function=embeddings
+    embedding_function=embedding_model
 )
 
 # 2. Set up the Generative AI model (Groq)
@@ -60,7 +60,7 @@ Context:
 
 User Question: {user_question}
 
-Please provide a clear, helpful answer using ONLY the provided context. If the answer is not in the documents, say "I don't have enough information to answer that question based on the provided documents."
+Please provide a clear, helpful answer using ONLY the provided context. If the answer is not in the context, say "I don't have enough information to answer that question based on the provided documents."
 """
     
     # Step 4: Get the answer from Groq
@@ -70,7 +70,7 @@ Please provide a clear, helpful answer using ONLY the provided context. If the a
         HumanMessage(content=combined_input)
     ]
     
-    print("Thinking... (Consulting Groq Cloud)")
+    print("Thinking... (Both Search and AI are in the Cloud now!)")
     result = model.invoke(messages)
     answer = result.content
     
@@ -83,7 +83,7 @@ Please provide a clear, helpful answer using ONLY the provided context. If the a
 
 # Simple chat loop
 def start_chat():
-    print("\n🚀 RAG Chatbot is Ready! (Groq + Local Search)")
+    print("\n🚀 RAG Chatbot is Ready! (All Cloud - Fast Mode)")
     print("Ask me anything about your documents. Type 'quit' to exit.")
     
     while True:
