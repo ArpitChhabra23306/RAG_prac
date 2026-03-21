@@ -18,7 +18,7 @@ db = Chroma(
 )
 
 # Search for relevant documents
-query = "what is meta"
+query = "anything between spaceX and elon musk"
 
 retriever = db.as_retriever(
     search_type="similarity_score_threshold",
